@@ -52,36 +52,67 @@ def update_component(components, lcsc_code):
     return True
 
 
-def get_part_data(lcsc_number: int) -> dict:
-    """Get data for a given LCSC number from the API."""
+def get_part_data(lcsc_number: int, retries: int = 3, retry_delay: float = 5.0) -> dict:
+    """Get data for a given LCSC number from the API.
+
+    Hardened against transient failures: JLCPCB's cart API will occasionally
+    reject a request mid-handshake (seen as ssl.SSLError:
+    TLSV1_ALERT_INTERNAL_ERROR) when hit with many requests back-to-back and
+    no delay between them, which used to crash the whole script and block
+    the downstream database-build job entirely. This retries with backoff
+    and always returns a {"success": False, ...} dict instead of letting a
+    network/SSL exception propagate.
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
     }
 
-    response = requests.get(
-        f"https://cart.jlcpcb.com/shoppingCart/smtGood/getComponentDetail?componentCode=C{lcsc_number}",
-        headers=headers,
-        timeout=10,
-    )
+    last_error = None
+    for attempt in range(1, retries + 1):
+        try:
+            response = requests.get(
+                f"https://cart.jlcpcb.com/shoppingCart/smtGood/getComponentDetail?componentCode=C{lcsc_number}",
+                headers=headers,
+                timeout=10,
+            )
+        except requests.exceptions.RequestException as e:
+            last_error = f"{type(e).__name__}: {e}"
+            if attempt < retries:
+                time.sleep(retry_delay * attempt)  # linear backoff
+                continue
+            return {"success": False, "msg": f"request failed after {retries} attempts ({last_error})"}
 
-    if response.status_code != requests.codes.ok:
-        return {"success": False, "msg": "non-OK HTTP response status"}
+        if response.status_code != requests.codes.ok:
+            last_error = f"non-OK HTTP response status ({response.status_code})"
+            if attempt < retries:
+                time.sleep(retry_delay * attempt)
+                continue
+            return {"success": False, "msg": last_error}
 
-    data = response.json()
+        try:
+            data = response.json()
+        except ValueError:
+            last_error = "response was not valid JSON"
+            if attempt < retries:
+                time.sleep(retry_delay * attempt)
+                continue
+            return {"success": False, "msg": last_error}
 
-    if not data.get("data"):
-        return {
-            "success": False,
-            "msg": "returned JSON data does not have expected 'data' attribute",
-        }
+        if not data.get("data"):
+            return {
+                "success": False,
+                "msg": "returned JSON data does not have expected 'data' attribute",
+            }
 
-    if data["data"]["componentCode"] != f"C{lcsc_number}":
-        return {
-            "success": False,
-            "msg": "returned missing or incorrect componentCode",
-        }
+        if data["data"]["componentCode"] != f"C{lcsc_number}":
+            return {
+                "success": False,
+                "msg": "returned missing or incorrect componentCode",
+            }
 
-    return {"success": True, "data": data}
+        return {"success": True, "data": data}
+
+    return {"success": False, "msg": f"request failed after {retries} attempts ({last_error})"}
 
 
 def get_part_data_and_update_csv(lcsc_number, rows):
@@ -235,11 +266,13 @@ with open(assembly_file_location, "r", newline="") as read_file:
 for lcsc_number in components:
     if lcsc_number not in assembly_components:
         rows = get_part_data_and_update_csv(int(lcsc_number), rows)
+        time.sleep(0.4)  # Small gap between per-part requests to avoid tripping rate limiting
 
 # Randomly check components already in the list
 random_components = random.sample([c for c in components if c != ""], 400)
 for lcsc_number in random_components:
     rows = get_part_data_and_update_csv(int(lcsc_number), rows)
+    time.sleep(0.4)
 
 
 with open(assembly_file_location, "w", newline="") as write_file:
