@@ -293,8 +293,37 @@ for lcsc_number in components:
         rows = get_part_data_and_update_csv(int(lcsc_number), rows)
         time.sleep(0.4)  # Small gap between per-part requests to avoid tripping rate limiting
 
-# Randomly check components already in the list
-random_components = random.sample([c for c in components if c != ""], 400)
+# Re-check components already in the list. Prioritize ones still missing a
+# "Describe" value (used by generate-database.py to backfill blank upstream
+# descriptions) over a purely random sample -- with ~3500+ historically
+# tracked components and only 400 checked per day, blind random sampling
+# wastes most of the budget re-confirming rows that already have Describe
+# populated, or ones that aren't even in the current basic/preferred set
+# anymore. This gets full coverage in days instead of weeks.
+rows_by_lcsc = {row[0]: row for row in rows if row}
+
+
+def _has_describe(lcsc_number):
+    row = rows_by_lcsc.get(lcsc_number)
+    return bool(row) and len(row) >= 9 and row[8].strip() != ""
+
+
+all_known_components = [c for c in components if c != ""]
+missing_describe_components = [c for c in all_known_components if not _has_describe(c)]
+
+if len(missing_describe_components) >= 400:
+    random_components = random.sample(missing_describe_components, 400)
+else:
+    remaining_budget = 400 - len(missing_describe_components)
+    other_components = [c for c in all_known_components if _has_describe(c)]
+    random_components = missing_describe_components + random.sample(
+        other_components, min(remaining_budget, len(other_components))
+    )
+print(
+    f"Re-checking {len(random_components)} components today "
+    f"({len(missing_describe_components)} still missing Describe, prioritized first)"
+)
+
 for lcsc_number in random_components:
     rows = get_part_data_and_update_csv(int(lcsc_number), rows)
     time.sleep(0.4)
