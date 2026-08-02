@@ -211,6 +211,90 @@ if schema == "v2":
             "extra": df_sorted["lcsc_attributes"].apply(_extra_json),
         }
     )
+
+    # --- Cross-check "preferred" against this repo's own live scrape --------
+    # yaqwsx's `updatepreferred` sync can lag/undercount versus JLCPCB's
+    # actual live preferred-parts list (confirmed: raw `preferred = 1` count
+    # in the DB came out well below what jlcpcb.com/parts/basic_parts shows
+    # with the Preferred/Extended filter). This repo's own scrape-jlcpcb.py
+    # job already hits that live API daily and records results in
+    # scraped/ComponentList.csv. Any LCSC part seen there *today* is
+    # currently returned by JLC's own
+    # {componentLibraryType: "base", preferredComponentFlag: true} query --
+    # i.e. it's currently basic-or-preferred by JLC's own definition right
+    # now, even if yaqwsx's DB hasn't caught up yet. This folds that signal
+    # in: adds rows that are missing entirely, and flips `preferred` to 1 for
+    # known rows the DB hadn't flagged. This is the same intent as the old
+    # (legacy-schema) correction pass, just keyed off a precise "seen today"
+    # signal instead of a fuzzy first/last-seen date window.
+    component_list_path = os.path.join("..", os.path.join("scraped", "ComponentList.csv"))
+    component_list = pd.read_csv(component_list_path)
+    component_list["lcsc"] = pd.to_numeric(component_list["lcsc"], errors="coerce")
+    component_list = component_list.dropna(subset=["lcsc"])
+    latest_seen = component_list["Last Seen"].max()
+    live_lcsc = set(component_list[component_list["Last Seen"] == latest_seen]["lcsc"].astype(int))
+
+    known_lcsc = set(df_sorted["lcsc"].astype(int))
+    missing_lcsc = live_lcsc - known_lcsc
+
+    added_rows = 0
+    if missing_lcsc:
+        placeholders = ",".join("?" * len(missing_lcsc))
+        cur.execute(
+            f"""
+            SELECT
+                j.lcsc, j.category, j.subcategory, j.mfr, j.package, j.joints,
+                j.manufacturer, j.library_type, j.preferred, j.description,
+                j.datasheet, j.stock, j.price AS price_csv,
+                l.attributes AS lcsc_attributes
+            FROM jlc_components j
+            LEFT JOIN lcsc_components l ON l.lcsc = j.lcsc
+            WHERE j.lcsc IN ({placeholders}) AND j.package != '0201';
+            """,
+            list(missing_lcsc),
+        )
+        extra_cols = [d[0] for d in cur.description]
+        extra_raw = pd.DataFrame(cur.fetchall(), columns=extra_cols)
+        if not extra_raw.empty:
+            extra_rows = pd.DataFrame(
+                {
+                    "lcsc": extra_raw["lcsc"],
+                    "category_id": 0,
+                    "category": extra_raw["category"],
+                    "subcategory": extra_raw["subcategory"],
+                    "mfr": extra_raw["mfr"],
+                    "manufacturer": extra_raw["manufacturer"],
+                    "package": extra_raw["package"],
+                    "joints": extra_raw["joints"],
+                    "basic": (extra_raw["library_type"] == "base").astype(int),
+                    "preferred": 1,
+                    "description": extra_raw["description"],
+                    "datasheet": extra_raw["datasheet"],
+                    "stock": extra_raw["stock"],
+                    "last_on_stock": 0,
+                    "price": extra_raw["price_csv"].apply(_price_csv_to_json),
+                    "extra": extra_raw["lcsc_attributes"].apply(_extra_json),
+                }
+            )
+            df_sorted = pd.concat([df_sorted, extra_rows], ignore_index=True)
+            added_rows = len(extra_rows)
+
+    # Flip preferred=1 for known non-basic rows that showed up live but
+    # weren't yet flagged preferred by yaqwsx's own sync (mirrors the old
+    # script's "basic = 0 AND preferred = 0" update condition exactly).
+    corrected_mask = (
+        df_sorted["lcsc"].astype(int).isin(live_lcsc)
+        & (df_sorted["basic"] == 0)
+        & (df_sorted["preferred"] == 0)
+    )
+    corrected_count = int(corrected_mask.sum())
+    df_sorted.loc[corrected_mask, "preferred"] = 1
+
+    df_sorted = df_sorted.drop_duplicates(subset="lcsc", keep="first")
+    print(
+        f"[debug] preferred cross-check: live scrape had {len(live_lcsc)} basic-or-preferred parts, "
+        f"{added_rows} missing rows added, {corrected_count} rows corrected in place"
+    )
 else:
     cur.execute(
         """
