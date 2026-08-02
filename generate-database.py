@@ -308,19 +308,68 @@ else:
     df_sorted = pd.DataFrame(filtered_components, columns=[desc[0] for desc in cur.description])
 
 # Merge assembly details
+print(f"[debug] df_sorted rows before assembly-details merge: {len(df_sorted)}")
+
 file_location = os.path.join("..", os.path.join("scraped", "assembly-details.csv"))
 df = pd.read_csv(file_location)
 
 df_filtered = df[df["lcsc"].isin(df_sorted["lcsc"])]
 
-df_sorted = pd.merge(
-    df_sorted, df_filtered[["lcsc", "Assembly Process", "Min Order Qty", "Attrition Qty"]], on="lcsc", how="right"
+# NOTE: how="right" here means any lcsc in df_sorted that ISN'T ALSO present
+# in scraped/assembly-details.csv gets silently dropped (a right join only
+# keeps rows from the right-hand frame). assembly-details.csv is populated
+# separately by scrape-jlcpcb.py and can lag behind newly-discovered lcsc
+# codes (e.g. ones just added by the preferred cross-check above, or ones
+# whose per-part detail fetch previously failed/was skipped there) -- this
+# is very likely why previously-added rows weren't showing up in the final
+# CSV despite being added to df_sorted correctly. Logging the drop here so
+# it's visible instead of silent.
+assembly_merge_columns = ["lcsc", "Assembly Process", "Min Order Qty", "Attrition Qty"]
+if "Describe" in df_filtered.columns:
+    assembly_merge_columns.append("Describe")
+
+merged = pd.merge(df_sorted, df_filtered[assembly_merge_columns], on="lcsc", how="right")
+dropped_no_assembly_details = set(df_sorted["lcsc"].astype(int)) - set(merged["lcsc"].astype(int))
+print(
+    f"[debug] df_sorted rows after assembly-details merge: {len(merged)} "
+    f"({len(dropped_no_assembly_details)} rows dropped for missing assembly-details.csv coverage)"
 )
+if dropped_no_assembly_details:
+    sample = list(dropped_no_assembly_details)[:20]
+    print(f"[debug] sample lcsc dropped for missing assembly-details.csv coverage: {sample}")
+df_sorted = merged
+
+# Backfill blank `description` with the real per-part text this repo's own
+# scrape-jlcpcb.py already fetches daily from JLCPCB's live getComponentDetail
+# API (stored as "Describe" in assembly-details.csv). yaqwsx's upstream
+# database mirrors a *different* JLCPCB field -- the bulk parts-list export's
+# "Description" column -- which JLCPCB leaves blank for a large fraction of
+# Diodes/Circuit-Protection/Transistor parts even though the live per-part
+# API has a full description (confirmed by querying it directly). This uses
+# our own already-fetched, more-complete data instead of guessing from
+# subcategory/attributes alone.
+if "Describe" in df_sorted.columns:
+    df_sorted["description"] = df_sorted["description"].fillna("")
+    df_sorted["Describe"] = df_sorted["Describe"].fillna("")
+    blank_description = df_sorted["description"].astype(str).str.strip() == ""
+    has_describe = df_sorted["Describe"].astype(str).str.strip() != ""
+    backfilled_count = int((blank_description & has_describe).sum())
+    df_sorted.loc[blank_description, "description"] = df_sorted.loc[blank_description, "Describe"]
+    print(
+        f"[debug] backfilled {backfilled_count} of {int(blank_description.sum())} blank descriptions "
+        f"from assembly-details.csv's Describe column"
+    )
+    df_sorted = df_sorted.drop(columns=["Describe"])
 
 df_sorted = df_sorted.sort_values(by=["category", "subcategory", "package"])
 
 # Remove parts with missing price fields
+before_price_filter = len(df_sorted)
 df_sorted = df_sorted.drop(df_sorted[df_sorted["price"] == "[]"].index)
+print(
+    f"[debug] df_sorted rows after dropping empty-price rows: {len(df_sorted)} "
+    f"({before_price_filter - len(df_sorted)} dropped)"
+)
 
 # Save sorted DataFrame to CSV
 df_sorted.to_csv("jlcpcb-components-basic-preferred.csv", index=False, header=True)

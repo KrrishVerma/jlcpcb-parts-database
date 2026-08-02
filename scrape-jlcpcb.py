@@ -124,6 +124,15 @@ def get_part_data_and_update_csv(lcsc_number, rows):
 
     part_details = response["data"]["data"]
     part_details["leastNumber"] = part_details["leastNumber"] or 0
+    # JLCPCB's bulk parts-list export (the source yaqwsx/jlcparts' database
+    # reads "description" from) leaves that field blank for a large share of
+    # Diodes/Circuit-Protection/Transistor parts, even though the live
+    # per-part API we're already calling here has a full text description
+    # under "describe". We were fetching this response and discarding that
+    # field; now we keep it so generate-database.py can backfill blank
+    # descriptions with real JLCPCB text instead of guessing from subcategory
+    # or attributes alone.
+    describe = part_details.get("describe") or ""
 
     found = False
     for index, row in enumerate(rows):
@@ -137,6 +146,7 @@ def get_part_data_and_update_csv(lcsc_number, rows):
                 part_details["lossNumber"],
                 part_details["specialComponentFee"],
                 part_details["componentLibraryType"],
+                describe,
             ]
             found = True
             break
@@ -152,6 +162,7 @@ def get_part_data_and_update_csv(lcsc_number, rows):
                 part_details["lossNumber"],
                 part_details["specialComponentFee"],
                 part_details["componentLibraryType"],
+                describe,
             ]
         )
         print(f"Added {lcsc_number} to the csv file")
@@ -255,12 +266,26 @@ except FileNotFoundError:
                 "Attrition Qty",
                 "Special Component Fee",
                 "Component Library Type",
+                "Describe",
             ]
         )
 
 with open(assembly_file_location, "r", newline="") as read_file:
     reader = csv.reader(read_file)
     rows = [row for row in reader]
+
+# Backward compatibility: assembly-details.csv previously had 8 columns (no
+# "Describe" field). Pad the header and any not-yet-revisited rows to 9
+# columns so the file stays a rectangular CSV rather than going ragged.
+# Rows get their real Describe value filled in naturally as this script
+# revisits them (every basic/preferred part gets re-checked here, plus a
+# random 400-part resample daily), so this fills in over the next several
+# days without needing a one-off backfill pass.
+if rows and len(rows[0]) < 9:
+    rows[0].append("Describe")
+for row in rows[1:]:
+    if len(row) < 9:
+        row.append("")
 
 # Check for parts not in ComponentList.csv
 for lcsc_number in components:
