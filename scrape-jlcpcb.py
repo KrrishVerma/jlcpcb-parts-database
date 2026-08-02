@@ -293,13 +293,12 @@ for lcsc_number in components:
         rows = get_part_data_and_update_csv(int(lcsc_number), rows)
         time.sleep(0.4)  # Small gap between per-part requests to avoid tripping rate limiting
 
-# Re-check components already in the list. Prioritize ones still missing a
-# "Describe" value (used by generate-database.py to backfill blank upstream
-# descriptions) over a purely random sample -- with ~3500+ historically
-# tracked components and only 400 checked per day, blind random sampling
-# wastes most of the budget re-confirming rows that already have Describe
-# populated, or ones that aren't even in the current basic/preferred set
-# anymore. This gets full coverage in days instead of weeks.
+# One-time catch-up: fetch every component still missing a "Describe" value
+# (used by generate-database.py to backfill blank upstream descriptions) in
+# this run, not spread across days. At the existing 0.4s pacing between
+# requests (kept to avoid tripping JLCPCB's rate limiting), even ~1400
+# components only takes ~10 minutes -- trivial for a GitHub Actions job, so
+# there's no reason to artificially delay full coverage.
 rows_by_lcsc = {row[0]: row for row in rows if row}
 
 
@@ -311,19 +310,19 @@ def _has_describe(lcsc_number):
 all_known_components = [c for c in components if c != ""]
 missing_describe_components = [c for c in all_known_components if not _has_describe(c)]
 
-if len(missing_describe_components) >= 400:
-    random_components = random.sample(missing_describe_components, 400)
-else:
-    remaining_budget = 400 - len(missing_describe_components)
-    other_components = [c for c in all_known_components if _has_describe(c)]
-    random_components = missing_describe_components + random.sample(
-        other_components, min(remaining_budget, len(other_components))
-    )
-print(
-    f"Re-checking {len(random_components)} components today "
-    f"({len(missing_describe_components)} still missing Describe, prioritized first)"
-)
+print(f"Backfilling Describe for {len(missing_describe_components)} components missing it")
+for lcsc_number in missing_describe_components:
+    rows = get_part_data_and_update_csv(int(lcsc_number), rows)
+    time.sleep(0.4)
 
+# Separately, keep the original random 400-part resample for ongoing
+# staleness-checking (price/stock/assembly process can drift over time even
+# for parts that already have every field populated) -- unrelated to the
+# Describe backfill above, so it isn't skipped just because backfill ran.
+missing_describe_set = set(missing_describe_components)
+other_components = [c for c in all_known_components if c not in missing_describe_set]
+random_components = random.sample(other_components, min(400, len(other_components)))
+print(f"Re-checking {len(random_components)} additional components for staleness")
 for lcsc_number in random_components:
     rows = get_part_data_and_update_csv(int(lcsc_number), rows)
     time.sleep(0.4)
