@@ -135,6 +135,23 @@ print(f"Optimized Database Size: {optimized_db_size / (1024 ** 3):.2f} GiB")
 
 # --- Retrieve basic/preferred components ($0 for loading feeders), exclude "0201" package ---
 if schema == "v2":
+    # Debug: raw counts straight from the DB, before any filtering, so we can
+    # tell whether a low "preferred" count comes from upstream (yaqwsx's own
+    # `jlcparts updatepreferred` step not fully populating the flag) versus
+    # a mistake in the filtering/join below. Compare these against JLCPCB's
+    # live site counts at https://jlcpcb.com/parts/basic_parts.
+    cur.execute("SELECT COUNT(*) FROM jlc_components")
+    print(f"[debug] total jlc_components rows (post stock<5 delete): {cur.fetchone()[0]}")
+    cur.execute("SELECT COUNT(*) FROM jlc_components WHERE library_type = 'base'")
+    print(f"[debug] rows with library_type = 'base': {cur.fetchone()[0]}")
+    cur.execute("SELECT COUNT(*) FROM jlc_components WHERE preferred = 1")
+    print(f"[debug] rows with preferred = 1: {cur.fetchone()[0]}")
+    cur.execute("SELECT COUNT(*) FROM jlc_components WHERE preferred = 1 AND package != '0201'")
+    print(f"[debug] rows with preferred = 1 AND package != '0201': {cur.fetchone()[0]}")
+    cur.execute("SELECT key, value FROM meta")
+    for row in cur.fetchall():
+        print(f"[debug] meta.{row[0]} = {row[1]}")
+
     cur.execute(
         """
         SELECT
