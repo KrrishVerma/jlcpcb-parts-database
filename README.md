@@ -15,10 +15,12 @@ The original database is a massive 10GB multi-volume zip archive, unsupported by
 
 ### Automatically Updated Files
 
-Both files are automatically updated using GitHub Actions and hosted on GitHub Pages:
+Both files are automatically updated daily using GitHub Actions and hosted on GitHub Pages:
 
-* [Basic and Preferred Parts CSV](https://cdfer.github.io/jlcpcb-parts-database/jlcpcb-components-basic-preferred.csv)
-* [In-Stock Components SQLite Database](https://cdfer.github.io/jlcpcb-parts-database/jlcpcb-components.sqlite3)
+* [Basic and Preferred Parts CSV](https://krrishverma.github.io/jlcpcb-parts-database/jlcpcb-components-basic-preferred.csv)
+* [In-Stock Components SQLite Database](https://krrishverma.github.io/jlcpcb-parts-database/jlcpcb-components.sqlite3)
+
+This is an independently maintained fork — it feeds its own downstream [JLCPCB-Kicad-Library](https://github.com/KrrishVerma/JLCPCB-Kicad-Library) build rather than CDFER's.
 
 ### Example Usage
 
