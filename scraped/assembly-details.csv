@@ -3149,7 +3149,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2887615,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃@(Tj) 10uA@600V 1A 1V@400mA 30A 600V Single-Phase Rectifier MBS Bridge Rectifiers ROHS
 2887628,manualWeld,manualWeld,THT,5,0,0.0,expand,-55℃~+150℃@(Tj) 1.1V@12.5A 10uA@1kV 1kV 25A 350A Single-Phase Rectifier GBU Bridge Rectifiers ROHS
 2887639,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 Independent 100V 100uA@100V 2A 50A 850mV@2A SMAF Schottky Diodes ROHS
-2887896,smtWeld,smtWeld,SMT,1,0,0.0,expand,FBGA Pre-ordered Products ROHS
+2887896,smtWeld,smtWeld,SMT,1,0,0.0,expand,FBGA DDR SDRAM ROHS
 2889366,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 2891987,smtWeld,smtWeld,SMT,5,0,0.0,expand,22uF 35V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 2892153,smtWeld,smtWeld,SMT,20,10,0.0,expand,0402 LED Indication - Discrete ROHS
