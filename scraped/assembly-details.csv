@@ -174,7 +174,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 11616,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 50V 510kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 11702,smtWeld,smtWeld,SMT,20,10,0.0,base,-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 12044,smtWeld,smtWeld,SMT,5,2,0.0,expand,-40℃~+85℃ 1 4.2V 40uA 4V~9V 500mA Charging IC Lithium Battery Not supported Not supported SOT-23-6 Battery Management ROHS
-12084,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 17mA 1Mbps 370uA 3V~3.6V CAN Transceiver SOIC-8 CAN Transceivers ROHS
+12084,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 1 17mA 1Mbps 370uA 3V~3.6V CAN Transceiver Low-power mode、Wake-up function、ESD protection、Thermal shutdown protection、Bus fault protection、Hot-swap protection SOIC-8 CAN Transceivers ROHS
 12447,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 100mW 40.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 12530,smtWeld,smtWeld,SMT,20,10,0.0,base,2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 12674,smtWeld,smtWeld,SMT,2,1,0.0,base,-20℃~+70℃ 20pF 8MHz Crystal Oscillator ±20ppm ±30ppm HC-49S-SMD Crystals ROHS
