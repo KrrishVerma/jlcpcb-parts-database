@@ -631,7 +631,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 576393,smtWeld,smtWeld,SMT,5,2,0.0,expand,3.7A 3.8A 39mΩ 470nH ±20% 1008 Power Inductors ROHS
 577364,smtWeld,smtWeld,SMT,20,8,0.0,expand,25V 5.6pF NP0 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 600856,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+85℃ 1,000,000 cycles 1.6V~5.5V 40 Years 400kHz 4Kbit 5ms Hardware write protection function、Noise suppression function、Built-in power-on reset (POR) I2C SOIC-8 EEPROM ROHS"
-636034,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 1 1.8V~5.5V 100kHz 100kΩ 129 2.5uA 50ppm/℃ Linear RAM SPI ±20% SOIC-8 Digital Potentiometers ROHS
+636034,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 1 1.8V~5.5V 100kHz 100kΩ 129 2.5uA 50ppm/℃ 75Ω Linear Power-on reset RAM SPI ±20% SOIC-8 Digital Potentiometers ROHS
 636300,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+125℃ 1.7uV/℃ 170uA 1pA 1pA 2 20nV/√Hz@1kHz 25mA 2MHz 2V~6V 3mV 80dB 900V/ms ESD protection Rail-to-Rail Input, Rail-to-Rail Output MSOP-8 Operational Amplifier ROHS"
 636421,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 1.2uA 1.8V~5.5V 925nA External I2C Temperature compensation、Backup power management and battery charging、InsideSRAM/NVRAM、Timestamp function、Programmable clock output、Alarm function、Locking and tamper-proof、ESD/Overvoltage protection Yes MSOP-8 Real Time Clocks ROHS
 637214,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 10bit 12 2.3V~5.5V 256Byte 3.5KB 32MHz 5bit 8 Bit Built-in FLASH PIC TSSOP-14 Microcontrollers (MCU/MPU/SOC) ROHS
@@ -2024,7 +2024,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 629193,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1 N-channel 1.5Ω@10V 1.6W 100V 125pF 2V 3A SOT-89-3 MOSFETs ROHS
 631978,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+125℃@(Tj) 1 1.2V 1.6uA 200mA 350mV@(200mA) 44dB@(100Hz) 6V Fixed Over Temperature Protection、Short Circuit Protection Positive TO-92-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 631980,manualWeld,manualWeld,THT,5,5,0.0,expand,TO-92-3 Power Management - Specialized ROHS
-631981,manualWeld,manualWeld,THT,5,0,0.0,expand,TO-92-3 Power Management - Specialized ROHS
+631981,manualWeld,manualWeld,THT,1,0,0.0,expand,TO-92-3 Power Management - Specialized ROHS
 631982,manualWeld,manualWeld,THT,5,5,0.0,expand,TO-92-3 Power Management - Specialized ROHS
 631986,manualWeld,manualWeld,THT,5,0,0.0,expand,TO-92-3 Power Management - Specialized ROHS
 631988,manualWeld,manualWeld,THT,5,5,0.0,expand,TO-92-3 Power Management - Specialized ROHS
