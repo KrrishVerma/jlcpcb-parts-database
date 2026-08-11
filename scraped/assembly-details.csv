@@ -2860,7 +2860,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 609936,smtWeld,smtWeld,SMT,5,5,0.0,expand,0.3pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 609937,smtWeld,smtWeld,SMT,5,5,0.0,expand,10pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 609940,smtWeld,smtWeld,SMT,5,5,0.0,expand,15pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-609995,smtWeld,smtWeld,SMT,5,5,0.0,expand,12pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+609995,smtWeld,smtWeld,SMT,20,10,0.0,expand,12pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 609997,smtWeld,smtWeld,SMT,5,5,0.0,expand,24pF 50V C0G 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 648819,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+85℃ 1 6.5V Positive DFN1x1-4L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 648822,manualWeld,manualWeld,THT,5,5,0.0,expand,"SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
@@ -3110,7 +3110,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2803478,manualWeld,manualWeld,THT,5,5,0.0,expand,"35V 56uF ±20% 插件,D5xL8mm Polymer Aluminum Capacitors ROHS"
 2826411,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+200℃ 1.2kV 1.7nF 100mΩ 105nC 130pF 25pF 270W 3.5V 45A TO-247-3 Silicon Carbide Field Effect Transistor (MOSFET) ROHS
 2830505,manualWeld,manualWeld,THT,1,0,0.0,expand,"-40℃~+65℃ 1000hrs@65℃ 12.5mm 15F 30mA@72hrs 3V 40mΩ@1kHz 插件,P=7.7mm Supercapacitors ROHS"
-2830528,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+100℃ 10mA 120° 3.1V 35mcd 466nm 471nm Blue Water Clear SMD,3.8x3.8mm LED Indication - Discrete ROHS"
+2830528,smtWeld,smtWeld,SMT,2,0,0.0,expand,"-40℃~+100℃ 10mA 120° 3.1V 35mcd 466nm 471nm Blue Water Clear SMD,3.8x3.8mm LED Indication - Discrete ROHS"
 2833056,manualWeld,manualWeld,THT,1,0,0.0,expand,SMD3535 Ultraviolet LEDs (UVLED) ROHS
 2833063,manualWeld,manualWeld,THT,5,5,0.0,expand,-40℃~+85℃ 120° 3.2V 430mcd 5mA 7000K~11000K 80mW Discrete Diode Water Clear White 0805 LED Indication - Discrete ROHS
 2833570,manualWeld,manualWeld,THT,1,0,0.0,expand,"-40℃~+85℃ 100mA 260nm~270nm 2kV 60° 6V SMD,3.9x3.9mm Ultraviolet LEDs (UVLED) ROHS"
