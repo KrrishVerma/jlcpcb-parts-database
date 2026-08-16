@@ -2265,7 +2265,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2913981,manualWeld,manualWeld,THT,5,5,0.0,expand,200mA 240Ω@100MHz 800mΩ ±25% 0201 Ferrite Beads ROHS
 2913983,manualWeld,manualWeld,THT,5,5,0.0,expand,0.8nH 10GHz 14@500MHz 60mΩ 760mA 0201 Inductors (SMD) ROHS
 2913984,manualWeld,manualWeld,THT,5,5,0.0,expand,10GHz 14@500MHz 150mΩ 2nH 415mA 600mA 0201 Inductors (SMD) ROHS
-2913988,manualWeld,manualWeld,THT,5,5,0.0,expand,14@500MHz 15nH 2.6GHz 220mA 890mΩ High-frequency inductor ±3% 0201 Inductors (SMD) ROHS
+2913988,smtWeld,smtWeld,SMT,20,10,0.0,expand,14@500MHz 15nH 2.6GHz 220mA 890mΩ High-frequency inductor ±3% 0201 Inductors (SMD) ROHS
 2913989,manualWeld,manualWeld,THT,5,5,0.0,expand,1.05Ω 18nH 2.3GHz 205mA ±3% 0201 Inductors (SMD) ROHS
 2913990,manualWeld,manualWeld,THT,5,5,0.0,expand,14@500MHz 325mA 470mΩ 5.5GHz 5.6nH Multilayer inductor 0201 Inductors (SMD) ROHS
 2913991,manualWeld,manualWeld,THT,5,5,0.0,expand,290mA 4.3GHz 570mΩ 8.2nH ±3% 0201 Inductors (SMD) ROHS
