@@ -2019,7 +2019,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 626649,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+125℃@(Ta) 1 1.2V~5.5V 140ms 2.32V Active High No No Push-pull Voltage Monitor SOT-23-3 Supervisor and Reset ICs ROHS
 625515,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+125℃ 1.8V~5.5V 1pA 1pA 2 23mA 300V/ms 3uV/℃ 45nV/√Hz@1kHz 50uA 550kHz 5mV 75dB ESD protection Rail-to-Rail Input, Rail-to-Rail Output MSOP-8 Operational Amplifier ROHS"
 625577,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+125℃ 1 1pA 2.3V/us 2.8MHz Built-in compensation MSOP-8 Operational Amplifier ROHS
-627644,smtWeld,smtWeld,SMT,1,0,0.0,expand,1 12MHz 1mA 22V/us MSOP-8 Programmable / Variable Gain Amplifiers (PGA/VGA) ROHS
+627644,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 1 12MHz 1V/V~32V/V 1mA 1mA 1pA 2.5V~5.5V 22V/us 275uV 30mA 4uV/℃ Digital interface gain、Enable/shutdown function、Power-on reset / default gain PGA Rail-to-rail input、Rail-to-rail output Single-Ended MSOP-8 Programmable / Variable Gain Amplifiers (PGA/VGA) ROHS
 627908,smtWeld,smtWeld,SMT,1,0,0.0,expand,SOIC-8 Power Management - Specialized ROHS
 629193,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1 N-channel 1.5Ω@10V 1.6W 100V 125pF 2V 3A SOT-89-3 MOSFETs ROHS
 631978,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+125℃@(Tj) 1 1.2V 1.6uA 200mA 350mV@(200mA) 44dB@(100Hz) 6V Fixed Over Temperature Protection、Short Circuit Protection Positive TO-92-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
@@ -2207,7 +2207,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2896174,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896175,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896179,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896180,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896180,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896183,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 2kV 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896195,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896197,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
@@ -2529,7 +2529,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 3018411,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 100Ω 1W 200V Thick Film Resistor ±200ppm/℃ ±5% 2512 Chip Resistor - Surface Mount ROHS
 3018414,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+155℃ 1W 200V 330Ω Thick Film Resistor ±200ppm/℃ ±5% 2512 Chip Resistor - Surface Mount ROHS
 3018420,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1W 200V 4.7kΩ Thick Film Resistor ±200ppm/℃ ±5% 2512 Chip Resistor - Surface Mount ROHS
-3018649,manualWeld,manualWeld,THT,5,0,0.0,expand,50kHz~1MHz 6mΩ 6mΩ SMD Current Sense Transformers ROHS
+3018649,manualWeld,manualWeld,THT,5,0,0.0,expand,5.5mm 50kHz~1MHz 6mΩ 6mΩ SMD Current Sense Transformers ROHS
 3019375,manualWeld,manualWeld,THT,5,0,0.0,expand,-25℃~+85℃ 1 3A 6P Female Through Hole Type-C USB 3.1 插件 USB Connectors ROHS
 5125145,manualWeld,manualWeld,THT,2,0,0.0,expand,-55℃~+150℃ 11.2V 1mA 455.4A@10/1000us 5kW@10/1000us 6.5V 7.98V Bidirectional IEC 61000-4-2 TVS P600 ESD and Surge Protection (TVS/ESD) ROHS
 5126825,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+85℃ 1.7V~1.95V 10 Years 100,000 cycles 104MHz 10uA 2ms 350us 512Mbit SPI WSON-8-EP(6x8) NAND FLASH ROHS"
