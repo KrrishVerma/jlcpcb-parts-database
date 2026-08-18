@@ -2552,7 +2552,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646302,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 200V 200uA@200V 2A 50A 950mV@2A Standalone SMB Schottky Diodes ROHS
 41375111,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100nA 1A 250 45V 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
 41375112,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 110MHz 140V 300 370mV 3W 4A 50nA 6V PNP SOT-223 Bipolar (BJT) ROHS
-41375126,smtWeld,smtWeld,SMT,10,4,0.0,expand,100MHz 100mA 100nA 2 NPN 200mW 45V 500mV 6V 800 NPN SOT-363 Bipolar (BJT) ROHS
+41375126,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 100MHz 100mA 100nA 2 NPN 200mW 45V 500mV 6V 800 NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375139,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 1.5V 15MHz 160V 1A 1uA 320 500mW 6V PNP SOT-89 Bipolar (BJT) ROHS
 41376087,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 13V 15.9V 1uA 200W@10/1000us 21.5V 9.3A IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41411783,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 14V 17.2V 1uA 200W@10/1000us 23.2V 8.6A Bidirectional IEC 61000-4-2 TVS SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
@@ -2565,7 +2565,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375129,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 150mA 200mW 300mV 400 50V 5V 80MHz PNP SOT-23 Bipolar (BJT) ROHS
 41375130,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 15V 200 200mW 500mV 50mA 50nA 5V 800MHz NPN SOT-23 Bipolar (BJT) ROHS
 41375133,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100MHz 100nA 250 300mW 45V 500mA 5V 700mV PNP SOT-23 Bipolar (BJT) ROHS
-41375134,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 30V 3A 400 500mV 500mW 6V 80MHz PNP SOT-89 Bipolar (BJT) ROHS
+41375134,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 30V 3A 400 500mV 500mW 6V 80MHz PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41375135,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100 100nA 1A 500mV 500mW 50MHz 5V 80V PNP SOT-89 Bipolar (BJT) ROHS
 41375136,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 1.5A 100MHz 100nA 25V 400 500mV 500mW 5V NPN SOT-89 Bipolar (BJT) ROHS
 41375138,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 100nA 150mV 160V 300 300MHz 500mW 600mA 6V NPN SOT-89 Bipolar (BJT) ROHS
@@ -2605,7 +2605,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375114,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100MHz 100nA 250mV 300mW 400 4V 500mA 60V NPN SOT-23 Bipolar (BJT) ROHS
 41375116,smtWeld,smtWeld,SMT,5,4,0.0,expand,160V 2 NPN 200mA 200mV 200mW 300 300MHz 50nA 6V NPN SOT-363 Bipolar (BJT) ROHS
 41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN SOT-89 Bipolar (BJT) ROHS
-41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN SOT-89 Bipolar (BJT) ROHS
+41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375121,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 120MHz 120V 1V 240 500mW 5V 800mA PNP SOT-89 Bipolar (BJT) ROHS
 41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
 41375125,smtWeld,smtWeld,SMT,10,4,0.0,expand,100nA 2 NPN 200mA 200mW 300 300MHz 300mV 40V 6V NPN SOT-363 Bipolar (BJT) ROHS
@@ -3169,7 +3169,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2906779,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+85℃ 1 25ns@4.5V,50pF 3V~5V 54mA 74HC 75mA 8 80uA Bidirectional Tri-State TSSOP-20 Buffers, Drivers, Receivers, Transceivers ROHS"
 2908308,manualWeld,manualWeld,THT,5,5,0.0,expand,-40℃~+85℃ 105mW 140° 20mA 260mcd~330mcd、330mcd~430mcd 510nm~512.5nm、512.5nm~515nm Discrete Diode Emerald Green Top-mount 0805 LED Indication - Discrete ROHS
 2913033,manualWeld,manualWeld,THT,1,0,0.0,expand,插件 LED Segment Displays ROHS
-2913904,manualWeld,manualWeld,THT,5,5,0.0,expand,DIP-8 Pre-ordered Products ROHS
+2913904,manualWeld,manualWeld,THT,5,5,0.0,expand,DIP-8 AC-DC Controllers and Regulators ROHS
 2914327,manualWeld,manualWeld,THT,1,0,0.0,expand,HVQFN-32-EP(5x5) Microcontrollers (MCU/MPU/SOC) ROHS
 2916217,manualWeld,manualWeld,THT,1,0,0.0,expand,SMD 2G/3G/4G/5G Modules ROHS
 2923679,manualWeld,manualWeld,THT,5,5,0.0,expand,"-25℃~+105℃ 16mm 20mm 22uF 450V 7.5mm 730mA@100kHz ±20% 插件,16x20mm Aluminum Electrolytic Capacitors - Leaded ROHS"
@@ -3403,7 +3403,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 42406052,smtWeld,smtWeld,SMT,5,1,0.0,expand,-55℃~+150℃ 1V@1A 1kV 2A 5uA 60A Single-Phase Rectifier ABS Bridge Rectifiers ROHS
 42406053,smtWeld,smtWeld,SMT,2,0,0.0,expand,-55℃~+150℃ 1.1V@3A 100A 1kV 3A 5uA Single-Phase Rectifier UMSB Bridge Rectifiers ROHS
 42406055,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+150℃ 1.1V@25A 10uA 500A 50A 800V Single-Phase Rectifier GBJ Bridge Rectifiers ROHS
-42406056,manualWeld,manualWeld,THT,2,0,0.0,expand,-55℃~+150℃ 1.1V@7.5A 10uA@1000V 15A 1kV 220A GBJ Bridge Rectifiers ROHS
+42406056,manualWeld,manualWeld,THT,2,0,0.0,expand,-55℃~+150℃ 1.1V@7.5A 10uA@1000V 15A 1kV 220A Single-Phase Rectifier GBJ Bridge Rectifiers ROHS
 42406057,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+150℃ 1.1V@25A 10uA 1kV 500A 50A Single-Phase Rectifier GBJ Bridge Rectifiers ROHS
 42406058,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+150℃ 10uA 15A 420A 800V 900mV@7.5A Single-Phase Rectifier GBJ Bridge Rectifiers ROHS
 42406059,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+150℃ 10uA 15A 380A 800V 920mV@7.5A Single-Phase Rectifier GBJ Bridge Rectifiers ROHS
