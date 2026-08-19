@@ -572,7 +572,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 110020,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 1 1.4V 100mW 10Mbps 10kV/us 4.5V~5.5V 5kV 5mA 75ns 75ns DC SOP-8-2.54mm Logic Output Optoisolators ROHS
 112574,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+85℃ 11.0592MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
 115764,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 10mA 1Mbps 4.75V~5.25V 50mA CAN Transceiver SOIC-8 CAN Transceivers ROHS
-115962,smtWeld,smtWeld,SMT,5,0,0.0,base,-40℃~+85℃ 20pF 8MHz Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
+115962,smtWeld,smtWeld,SMT,5,0,0.0,base,-40℃~+85℃ 20pF 80Ω 8MHz Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
 131821,smtWeld,smtWeld,SMT,20,6,0.0,expand,-65℃~+150℃ 1 Independent 20.8V~23.3V 200mW 22V 500Ω 50nA 55Ω SOD-323 Zener Diodes ROHS
 142300,smtWeld,smtWeld,SMT,5,0,0.0,expand,"-40℃~+110℃ 1 1.5V 1000V/us 3.75kV 600V 60mA 70mA No TRIAC SOP-4-175mil Triac, SCR Output Optoisolators ROHS"
 149504,smtWeld,smtWeld,SMT,20,10,0.0,base,-55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
@@ -1548,7 +1548,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646263,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.25A 1.25W 275mΩ@10V 32pF 380pF 3V 5.4nC@10V 60V 6pF P-Channel SOT-23 MOSFETs ROHS
 28646264,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.5W 115pF 11nC@4.5V 150pF 20V 43mΩ@4.5V 5A 900mV 905pF P-Channel SOT-23 MOSFETs ROHS
 28646265,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 1.5V 13pF 220mA 27pF 3.5Ω@10V、6Ω@4.5V 300mW 50V 6pF N-Channel SOT-323 MOSFETs ROHS
-28646266,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 12V 1uA 200mW 250 300mV 3V 7GHz NPN SOT-23 Bipolar (BJT) ROHS
+28646266,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 12V 1uA 200mW 250 300mV 3V 7GHz NPN Standalone SOT-23 Bipolar (BJT) ROHS
 28646267,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 50V 6V NPN SOT-89 Bipolar (BJT) ROHS
 28646268,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 120pF 20V 25pF 30pF 3A 4.5nC@4.5V 45mΩ@4.5V 700mW 750mV N-Channel SOT-23 MOSFETs ROHS
 28646269,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.2W 1.5V 12nC@10V 30V 4.1A 40mΩ@10V 572pF 70pF P-Channel SOT-23 MOSFETs ROHS
@@ -1801,7 +1801,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 476389,manualWeld,manualWeld,THT,5,0,0.0,expand,-2.75V~-1.25V、1.25V~2.75V -40℃~+125℃ 180MHz 1pA 2.5V~5.5V 232V/us 2mV 2pA 2uV/℃ 4 4.3nV/√Hz@1MHz 6.1mA 80dB 87mA Rail-to-rail output SOP-14 Operational Amplifier ROHS
 495216,manualWeld,manualWeld,THT,5,0,0.0,expand,1.4W 100nA 110 50V 550mV 5A PNP SOT-89 Bipolar (BJT) ROHS
 502957,manualWeld,manualWeld,THT,5,0,0.0,expand,DFN(5x6) Pre-ordered Products ROHS
-502966,manualWeld,manualWeld,THT,5,0,0.0,expand,DFN(5x6) Pre-ordered Products ROHS
+502966,manualWeld,manualWeld,THT,5,0,0.0,expand,DFN(5x6) MOSFETs ROHS
 504067,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+150℃ 1 N-channel 1.2nF 1V 20.3nC@10V 25A 3W 40V 58pF 9.4mΩ@10V PDFNWB3.3x3.3-8L MOSFETs ROHS
 504121,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1 N-channel 10nC@10V 1V 20pF 245pF 30V 42mΩ@10V 5A DFNWB2x2-6L MOSFETs ROHS
 504175,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃ 1 P-Channel 10pF 12V 3.6A 400mV 480pF 7.2nC@4.5V 700mW 80mΩ@2.5V DFNWB-6L-A(2x2) MOSFETs ROHS
@@ -2602,7 +2602,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41376098,smtWeld,smtWeld,SMT,0,2,0.0,expand,
 41375109,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 NPN 1.33W 100nA 130MHz 1A 25 500mV 5V 80V NPN SOT-223 Bipolar (BJT) ROHS
 41375110,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100V 100nA 1A 250 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
-41375114,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100MHz 100nA 250mV 300mW 400 4V 500mA 60V NPN SOT-23 Bipolar (BJT) ROHS
+41375114,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100MHz 100nA 250mV 300mW 400 4V 500mA 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 41375116,smtWeld,smtWeld,SMT,5,4,0.0,expand,160V 2 NPN 200mA 200mV 200mW 300 300MHz 50nA 6V NPN SOT-363 Bipolar (BJT) ROHS
 41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN SOT-89 Bipolar (BJT) ROHS
 41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN Standalone SOT-89 Bipolar (BJT) ROHS
