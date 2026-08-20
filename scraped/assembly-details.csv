@@ -2208,7 +2208,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2896175,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896179,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896180,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896183,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 2kV 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896183,manualWeld,manualWeld,THT,2,1,0.0,expand,"100pF 2kV 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896195,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896197,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896198,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
@@ -2603,7 +2603,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375109,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 NPN 1.33W 100nA 130MHz 1A 25 500mV 5V 80V NPN SOT-223 Bipolar (BJT) ROHS
 41375110,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100V 100nA 1A 250 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
 41375114,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100MHz 100nA 250mV 300mW 400 4V 500mA 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
-41375116,smtWeld,smtWeld,SMT,5,4,0.0,expand,160V 2 NPN 200mA 200mV 200mW 300 300MHz 50nA 6V NPN SOT-363 Bipolar (BJT) ROHS
+41375116,smtWeld,smtWeld,SMT,5,4,0.0,expand,160V 2 NPN 200mA 200mV 200mW 300 300MHz 50nA 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN SOT-89 Bipolar (BJT) ROHS
 41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375121,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 120MHz 120V 1V 240 500mW 5V 800mA PNP SOT-89 Bipolar (BJT) ROHS
