@@ -1006,7 +1006,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 7502691,smtWeld,smtWeld,SMT,20,10,0.0,expand,200mA 30mA 370mV@1mA 40V 500nA Independent SOD-323 Schottky Diodes ROHS
 7502692,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+150℃ 100V 150mA 1V@250mA 2uA 350mA Independent SOD-323 Schottky Diodes ROHS
 7502693,smtWeld,smtWeld,SMT,20,10,0.0,expand,1V@0.2A 200mA 30V 4A 500nA Independent SOD-323 Schottky Diodes ROHS
-7502694,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+125℃ 1V@100mA 200mA 2uA 30V 600A Independent SOD-323 Schottky Diodes ROHS
+7502694,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+125℃ 1V@100mA 200mA 2uA 30V 600mA Standalone SOD-323 Schottky Diodes ROHS
 7502695,smtWeld,smtWeld,SMT,20,6,0.0,expand,10V 25uA 3A 5A 600mV@1A Standalone SOD-323 Schottky Diodes ROHS
 7502697,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+125℃ 1 Independent 30V 450mV@0.5A 5.5A 500mA 500uA SOD-323 Schottky Diodes ROHS
 7502699,smtWeld,smtWeld,SMT,20,8,0.0,expand,100uA 2A 40V 470mV@500mA 500mA Independent SOD-323 Schottky Diodes ROHS
@@ -1747,7 +1747,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 385065,smtWeld,smtWeld,SMT,5,1,0.0,expand,"-55℃~+110℃ 1 1.2V 200mV@20mA,1mA 200mW 3.75kV 3us 4us 50% 50mA 50mA 600% 6V 80V DC Phototransistor SOP-4 Transistor, Photovoltaic Output Optoisolators ROHS"
 396043,manualWeld,manualWeld,THT,2,0,0.0,expand,1 N-channel 1.13nF 10A 2V 30nC@10V 40W 40pF 600V 620mΩ@10V 8.5pF N-Channel TO-220SIS MOSFETs ROHS
 397223,manualWeld,manualWeld,THT,1,0,0.0,expand,DIP Power Relays ROHS
-397944,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃ 1 N-channel 1.8V 11.3nC@10V 2.07W 26.5mΩ@4.5V 30V 580pF 70pF 8A PowerDI3333-8 MOSFETs ROHS
+397944,smtWeld,smtWeld,SMT,5,0,0.0,expand,-55℃~+150℃ 1 N-channel 1.8V 11.3nC@10V 2.07W 26.5mΩ@4.5V 30V 580pF 70pF 8A PowerDI3333-8 MOSFETs ROHS
 397971,smtWeld,smtWeld,SMT,5,0,0.0,expand,-55℃~+150℃ 1 P-Channel 1.7W 2.3A 200mΩ@4.5V 20V 320pF 5.8nC@4.5V 700mV 75pF P-Channel SOT-26 MOSFETs ROHS
 399657,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+85℃ 10uF 11mm 16V 5mm ±20% 插件,D5xL11mm Aluminum Electrolytic Capacitors - Leaded ROHS"
 399682,manualWeld,manualWeld,THT,2,0,0.0,expand,"16mm 25V 25mm 3300uF 插件,D16xL25mm Aluminum Electrolytic Capacitors - Leaded ROHS"
@@ -2560,11 +2560,11 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375113,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 200mA 200mV 300 350mW 400V 50MHz 5V PNP SOT-23 Bipolar (BJT) ROHS
 41375115,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 225mW 250mV 400 4V 500mA 50MHz 60V PNP SOT-23 Bipolar (BJT) ROHS
 41375117,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN + 1 PNP 10nA 200mW 300 300MHz 300mV 600mA 60V 6V NPN+PNP SOT-363 Bipolar (BJT) ROHS
-41375127,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 60V 6V NPN SOT-89 Bipolar (BJT) ROHS
+41375127,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 60V 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375128,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN 100nA 150MHz 1A 250mW 300 500mV 5V 60V NPN SOT-23 Bipolar (BJT) ROHS
 41375129,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 150mA 200mW 300mV 400 50V 5V 80MHz PNP SOT-23 Bipolar (BJT) ROHS
 41375130,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 15V 200 200mW 500mV 50mA 50nA 5V 800MHz NPN SOT-23 Bipolar (BJT) ROHS
-41375133,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100MHz 100nA 250 300mW 45V 500mA 5V 700mV PNP SOT-23 Bipolar (BJT) ROHS
+41375133,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100MHz 100nA 250 300mW 45V 500mA 5V 700mV PNP SOT-23 Bipolar (BJT) ROHS
 41375134,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 30V 3A 400 500mV 500mW 6V 80MHz PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41375135,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100 100nA 1A 500mV 500mW 50MHz 5V 80V PNP SOT-89 Bipolar (BJT) ROHS
 41375136,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 1.5A 100MHz 100nA 25V 400 500mV 500mW 5V NPN SOT-89 Bipolar (BJT) ROHS
