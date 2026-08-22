@@ -570,7 +570,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 107115,smtWeld,smtWeld,SMT,20,12,0.0,expand,33pF 50V NP0 ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 107145,smtWeld,smtWeld,SMT,20,10,0.0,base,220pF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 110020,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 1 1.4V 100mW 10Mbps 10kV/us 4.5V~5.5V 5kV 5mA 75ns 75ns DC SOP-8-2.54mm Logic Output Optoisolators ROHS
-112574,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+85℃ 11.0592MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
+112574,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+85℃ 11.0592MHz 20pF 80Ω Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
 115764,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+125℃ 10mA 1Mbps 4.75V~5.25V 50mA CAN Transceiver SOIC-8 CAN Transceivers ROHS
 115962,smtWeld,smtWeld,SMT,5,0,0.0,base,-40℃~+85℃ 20pF 80Ω 8MHz Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS
 131821,smtWeld,smtWeld,SMT,20,6,0.0,expand,-65℃~+150℃ 1 Independent 20.8V~23.3V 200mW 22V 500Ω 50nA 55Ω SOD-323 Zener Diodes ROHS
@@ -2188,7 +2188,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2891304,smtWeld,smtWeld,SMT,5,2,0.0,expand,-65℃~+175℃ 1A 200V 30A 50uA 920mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS
 2891306,smtWeld,smtWeld,SMT,5,4,0.0,expand,-65℃~+175℃ 150V 20uA 3A 80A 920mV@3A Independent SMAF Schottky Diodes ROHS
 2891307,manualWeld,manualWeld,THT,5,5,0.0,expand,-65℃~+175℃ 150A 150V 20uA 5A 920mV@5A Independent SMBF Schottky Diodes ROHS
-2891666,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 11V 1uA 20V 2pF 350W 8V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-4 SOD-323 ESD and Surge Protection (TVS/ESD) ROHS
+2891666,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 11V 130pF 150℃ 15A 1uA 20V 350W 8V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-4 SOD-323 ESD and Surge Protection (TVS/ESD) ROHS
 2892498,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 1 100W 100nA 25V 4A 5V 6V ESD DFN1006 ESD and Surge Protection (TVS/ESD) ROHS
 2893035,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+105℃ 10nF 400V ±5% 插件,P=7.5mm Polypropylene Film Capacitors (CBB) ROHS"
 2893148,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+105℃ 1.5nF 630V ±10% 插件,P=7.5mm Polypropylene Film Capacitors (CBB) ROHS"
