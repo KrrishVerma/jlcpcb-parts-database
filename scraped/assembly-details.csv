@@ -946,7 +946,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 7420321,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 N-channel 1.6V 1.6nC@10V 115mA 225mW 25pF 50pF 5pF 60V 900mΩ@10V N-Channel SOT-23 MOSFETs ROHS
 7420322,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 N-channel 1.6V 115mA 200mW 25pF 50pF 5pF 60V 900mΩ@10V N-Channel SOT-323 MOSFETs ROHS
 7420323,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100mA 100nA 180MHz 200mW 300mV 50V 5V 90 PNP SOT-23 Bipolar (BJT) ROHS
-7420324,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 100nA 135 200mW 250MHz 300mV 50V 5V NPN SOT-23 Bipolar (BJT) ROHS
+7420324,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 100nA 135 200mW 250MHz 300mV 50V 5V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 7420325,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+125℃ 1 Independent 20uA@40V 40V 5.5A 500mA 510mV@500mA SOD-123 Schottky Diodes ROHS
 7420326,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+125℃ 1 Independent 20uA@40V 40V 5.5A 500mA 510mV@500mA SOD-323 Schottky Diodes ROHS
 7420327,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+150℃ 100uA@60V 10A 1A 60V 700mV@1A Independent SOD-323 Schottky Diodes ROHS
@@ -1549,7 +1549,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646264,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.5W 115pF 11nC@4.5V 150pF 20V 43mΩ@4.5V 5A 900mV 905pF P-Channel SOT-23 MOSFETs ROHS
 28646265,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 1.5V 13pF 220mA 27pF 3.5Ω@10V、6Ω@4.5V 300mW 50V 6pF N-Channel SOT-323 MOSFETs ROHS
 28646266,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 12V 1uA 200mW 250 300mV 3V 7GHz NPN Standalone SOT-23 Bipolar (BJT) ROHS
-28646267,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 50V 6V NPN SOT-89 Bipolar (BJT) ROHS
+28646267,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 50V 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 28646268,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 120pF 20V 25pF 30pF 3A 4.5nC@4.5V 45mΩ@4.5V 700mW 750mV N-Channel SOT-23 MOSFETs ROHS
 28646269,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.2W 1.5V 12nC@10V 30V 4.1A 40mΩ@10V 572pF 70pF P-Channel SOT-23 MOSFETs ROHS
 28646270,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.18nF 1.3W 11nC@4.5V 125pF 20V 31mΩ@4.5V、41mΩ@2.5V 5.6A 620mV 88pF P-Channel SOT-23 MOSFETs ROHS
@@ -2553,7 +2553,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375111,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100nA 1A 250 45V 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
 41375112,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 110MHz 140V 300 370mV 3W 4A 50nA 6V PNP SOT-223 Bipolar (BJT) ROHS
 41375126,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 100MHz 100mA 100nA 2 NPN 200mW 45V 500mV 6V 800 NPN Standalone SOT-363 Bipolar (BJT) ROHS
-41375139,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 1.5V 15MHz 160V 1A 1uA 320 500mW 6V PNP SOT-89 Bipolar (BJT) ROHS
+41375139,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 PNP 1.5V 15MHz 160V 1A 1uA 320 500mW 6V PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41376087,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 13V 15.9V 1uA 200W@10/1000us 21.5V 9.3A IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41411783,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 14V 17.2V 1uA 200W@10/1000us 23.2V 8.6A Bidirectional IEC 61000-4-2 TVS SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 2982909,manualWeld,manualWeld,THT,1,0,0.0,expand,-30℃~+100℃ TO-46 Temperature Sensors ROHS
@@ -2607,7 +2607,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN SOT-89 Bipolar (BJT) ROHS
 41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375121,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 120MHz 120V 1V 240 500mW 5V 800mA PNP SOT-89 Bipolar (BJT) ROHS
-41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
+41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
 41375125,smtWeld,smtWeld,SMT,10,4,0.0,expand,100nA 2 NPN 200mA 200mW 300 300MHz 300mV 40V 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375131,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100nA 150mA 180MHz 200mW 400mV 50V 560 7V NPN SOT-23 Bipolar (BJT) ROHS
 41375132,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 PNP 100nA 150MHz 1A 250mW 300 5V 600mV 60V PNP SOT-23 Bipolar (BJT) ROHS
@@ -3287,7 +3287,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646282,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+125℃ 300uA@40V 3A 40V 450mV@3A 80A Standalone SMAF Schottky Diodes ROHS
 28646284,smtWeld,smtWeld,SMT,5,2,0.0,expand,300uA@45V 3A 450mV@3A 45V 80A Standalone SMAF Schottky Diodes ROHS
 28646286,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+125℃ 300uA@60V 3A 500mV@3A 60V 80A Standalone SMA Schottky Diodes ROHS
-41375118,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100MHz 1A 1uA 390 400mV 500mW 5V 80V NPN SOT-89 Bipolar (BJT) ROHS
+41375118,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100MHz 1A 1uA 390 400mV 500mW 5V 80V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41376089,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 11.2V 17.86A 200W@10/1000us 250uA 6.5V 7.98V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41376090,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 1uA 200W@10/1000us 26V 31.9V 4.8A 42.1V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41376091,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 1uA 200W@10/1000us 28V 34.4V 4.41A 45.4V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
