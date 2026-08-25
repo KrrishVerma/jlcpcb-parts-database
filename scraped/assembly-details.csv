@@ -160,7 +160,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 8734,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 12bit 20KB 2V~3.6V 32 Bit 37 64KB 72MHz ARM Cortex-M3 Built-in FLASH LQFP-48(7x7) Microcontrollers (MCU/MPU/SOC) ROHS
 8959,smtWeld,smtWeld,SMT,1,0,0.0,expand,0℃~+70℃ 1nA 2V~5.5V 300nA Backup power management and battery charging、InsideSRAM/NVRAM、Sleep/Wake control External SPI SOIC-8 Real Time Clocks ROHS
 8963,smtWeld,smtWeld,SMT,1,0,0.0,base,-40℃~+85℃ 1 1 10Mbps 2mA 3.3V 32 Half-Duplex Transceiver SOIC-8 RS-485 / RS-422 ICs ROHS
-9002,smtWeld,smtWeld,SMT,5,2,0.0,base,-40℃~+85℃ 12MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
+9002,smtWeld,smtWeld,SMT,5,2,0.0,base,-40℃~+85℃ 12MHz 20pF 80Ω Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
 9006,smtWeld,smtWeld,SMT,5,4,0.0,base,-40℃~+85℃ 12pF 25MHz Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
 9196,smtWeld,smtWeld,SMT,5,10,0.0,base,1nF 2kV X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 9634,smtWeld,smtWeld,SMT,5,4,0.0,base,-55℃~+150℃ 1 NPN 160 1uA 30V 3A 500mV 500mW 50MHz 6V NPN SOT-89-3L Bipolar (BJT) ROHS
@@ -177,7 +177,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 12084,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+85℃ 1 17mA 1Mbps 370uA 3V~3.6V CAN Transceiver Low-power mode、Wake-up function、ESD protection、Thermal shutdown protection、Bus fault protection、Hot-swap protection SOIC-8 CAN Transceivers ROHS
 12447,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 100mW 40.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 12530,smtWeld,smtWeld,SMT,20,10,0.0,base,2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-12674,smtWeld,smtWeld,SMT,2,1,0.0,base,-20℃~+70℃ 20pF 8MHz Crystal Oscillator ±20ppm ±30ppm HC-49S-SMD Crystals ROHS
+12674,smtWeld,smtWeld,SMT,2,1,0.0,base,-20℃~+70℃ 20pF 70Ω 8MHz Crystal Oscillator ±20ppm ±30ppm HC-49S-SMD Crystals ROHS
 12891,smtWeld,smtWeld,SMT,5,4,0.0,base,22uF 25V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 13167,smtWeld,smtWeld,SMT,20,10,0.0,base,-55℃~+155℃ 100mW 2.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
 13320,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 100mW 5.1MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
@@ -977,7 +977,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 7420352,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 PNP 100 100nA 200MHz 250mW 400mV 5V 600mA 60V PNP SOT-23 Bipolar (BJT) ROHS
 7420353,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 NPN 100 100nA 200mA 200mW 300MHz 300mV 40V 6V NPN SOT-23 Bipolar (BJT) ROHS
 7420354,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS
-7420355,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100 100nA 250MHz 300mW 400mV 40V 600mA 6V NPN SOT-23 Bipolar (BJT) ROHS
+7420355,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100 100nA 250MHz 300mW 400mV 40V 600mA 6V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 7420356,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 PNP 100 100MHz 100nA 160V 200mV 300mW 5V 600mA PNP SOT-23 Bipolar (BJT) ROHS
 7420357,smtWeld,smtWeld,SMT,10,5,0.0,expand,-55℃~+150℃ 1 NPN 100 100MHz 150mV 160V 300mW 50nA 600mA 6V NPN SOT-23 Bipolar (BJT) ROHS
 7420358,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+150℃ 1 Independent 1.3V@1A 1A 1kV 2uA@1000V 30A 500ns SMA(DO-214AC) Fast Recovery / High Efficiency Diodes ROHS
@@ -2561,7 +2561,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375115,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 225mW 250mV 400 4V 500mA 50MHz 60V PNP SOT-23 Bipolar (BJT) ROHS
 41375117,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN + 1 PNP 10nA 200mW 300 300MHz 300mV 600mA 60V 6V NPN+PNP SOT-363 Bipolar (BJT) ROHS
 41375127,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 60V 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
-41375128,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN 100nA 150MHz 1A 250mW 300 500mV 5V 60V NPN SOT-23 Bipolar (BJT) ROHS
+41375128,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN 100nA 150MHz 1A 250mW 300 500mV 5V 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 41375129,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 150mA 200mW 300mV 400 50V 5V 80MHz PNP SOT-23 Bipolar (BJT) ROHS
 41375130,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 15V 200 200mW 500mV 50mA 50nA 5V 800MHz NPN SOT-23 Bipolar (BJT) ROHS
 41375133,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100MHz 100nA 250 300mW 45V 500mA 5V 700mV PNP SOT-23 Bipolar (BJT) ROHS
