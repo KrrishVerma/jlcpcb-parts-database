@@ -1402,10 +1402,10 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 22379473,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 Independent 15Ω 2uA 300mW 6.4V~7.2V 6.8V 80Ω SOT-23 Zener Diodes ROHS
 22379474,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 Independent 100nA@23.1V 300mW 31V~35V 325Ω 33V 80Ω SOT-23 Zener Diodes ROHS
 22379475,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 1.3V 10pF 340mA 350mW 40pF 60V 900mΩ@10V、1.1Ω@4.5V N-Channel SOT-23 MOSFETs ROHS
-22388837,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 200mA 200mW 300MHz 300mV 40 40V 5V 60nA NPN SOT-323 Bipolar (BJT) ROHS
+22388837,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 200mA 200mW 300MHz 300mV 40 40V 5V 60nA NPN Standalone SOT-323 Bipolar (BJT) ROHS
 22392482,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 Pair Common Cathode 1V@100mA 200mA 2uA@25V 30V 600mA SOT-323 Schottky Diodes ROHS
 22395515,smtWeld,smtWeld,SMT,20,8,0.0,expand,-55℃~+125℃ 12V 16.5V 24V 3.5A@8/20us 3.5pF 500nA 85W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN0603-2L ESD and Surge Protection (TVS/ESD) ROHS
-22395516,smtWeld,smtWeld,SMT,20,8,0.0,expand,-55℃~+125℃ 100nA 220W@8/20us 24V 25pF 30V 44V 5A@8/20us ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
+22395516,smtWeld,smtWeld,SMT,5,8,0.0,expand,-55℃~+125℃ 100nA 220W@8/20us 24V 25pF 30V 44V 5A@8/20us ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
 22395517,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 15V 185A@8/20us 2.775kW@8/20us 200nA 4.5V 650pF 7V ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1610-2L ESD and Surge Protection (TVS/ESD) ROHS
 22395518,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 1uA 280A@8/20us 4.5V 5.88kW@8/20us 650pF 6V 8.5V、21V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN2020-3L ESD and Surge Protection (TVS/ESD) ROHS
 22395519,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+125℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 9V ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
