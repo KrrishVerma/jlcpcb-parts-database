@@ -2461,7 +2461,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2986177,smtWeld,smtWeld,SMT,5,0,0.0,expand,"-40℃~+85℃@(Ta) 1 16V 200mV@(100mA) 2uA 3.3V 500mA Fixed Over Temperature Protection、Thermal Shutdown Positive SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 2986278,smtWeld,smtWeld,SMT,5,2,0.0,expand,1.24A 12nH 93mΩ Unshielded Inductor ±5% 0402 Power Inductors ROHS
 2987345,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+85℃ 10V~30V 1A DIP-8 AC-DC Controllers and Regulators ROHS
-2987919,smtWeld,smtWeld,SMT,5,0,0.0,expand,SSOP-16 Pre-ordered Products ROHS
+2987919,smtWeld,smtWeld,SMT,5,0,0.0,expand,SSOP-16 RS-485 / RS-422 ICs ROHS
 2988103,manualWeld,manualWeld,THT,5,5,0.0,expand,350mΩ 600mA 68nH Wire-wound inductor ±5% 0603 Power Inductors ROHS
 2988109,manualWeld,manualWeld,THT,5,5,0.0,expand,1.9Ω 230mA 23@25MHz 320MHz 560nH Wire-wound chip inductor ±2% 0805 Inductors (SMD) ROHS
 2988644,manualWeld,manualWeld,THT,5,5,0.0,expand,-25℃~+85℃ 450uA 50ppm/℃ Adjustable SOT-23 Voltage Reference ROHS
