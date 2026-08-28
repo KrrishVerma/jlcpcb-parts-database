@@ -2839,7 +2839,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 529223,manualWeld,manualWeld,THT,5,5,0.0,expand,FSIP-12 Audio Amplifiers ROHS
 529242,manualWeld,manualWeld,THT,1,0,0.0,expand,MULT-11 Audio Amplifiers ROHS
 529246,manualWeld,manualWeld,THT,2,0,0.0,expand,DIP-18 LED Drivers ROHS
-529255,manualWeld,manualWeld,THT,5,5,0.0,expand,SOIC-16 Pre-ordered Products ROHS
+529255,manualWeld,manualWeld,THT,5,5,0.0,expand,SOIC-16 NAND FLASH ROHS
 533893,smtWeld,smtWeld,SMT,5,0,0.0,expand,PG-SOT-23-6 Pre-ordered transistors ROHS
 544507,manualWeld,manualWeld,THT,1,0,0.0,expand,SOIC-8 LVDS ICs ROHS
 596727,manualWeld,manualWeld,THT,1,0,0.0,expand,SMD Pre-ordered Connectors ROHS
