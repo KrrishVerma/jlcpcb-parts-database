@@ -2460,7 +2460,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2985910,manualWeld,manualWeld,THT,2,0,0.0,expand,插件 DIP Switches ROHS
 2986177,smtWeld,smtWeld,SMT,5,0,0.0,expand,"-40℃~+85℃@(Ta) 1 16V 200mV@(100mA) 2uA 3.3V 500mA Fixed Over Temperature Protection、Thermal Shutdown Positive SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 2986278,smtWeld,smtWeld,SMT,5,2,0.0,expand,1.24A 12nH 93mΩ Unshielded Inductor ±5% 0402 Power Inductors ROHS
-2987345,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+85℃ 10V~30V 1A DIP-8 AC-DC Controllers and Regulators ROHS
+2987345,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+85℃ 100% 10V~30V 1A 1W 47kHz~57kHz Under Voltage Protection、Over Current Protection、Under-voltage lockout DIP-8 AC-DC Controllers and Regulators ROHS
 2987919,smtWeld,smtWeld,SMT,5,0,0.0,expand,SSOP-16 RS-485 / RS-422 ICs ROHS
 2988103,manualWeld,manualWeld,THT,5,5,0.0,expand,350mΩ 600mA 68nH Wire-wound inductor ±5% 0603 Power Inductors ROHS
 2988109,manualWeld,manualWeld,THT,5,5,0.0,expand,1.9Ω 230mA 23@25MHz 320MHz 560nH Wire-wound chip inductor ±2% 0805 Inductors (SMD) ROHS
@@ -2551,7 +2551,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646299,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+125℃ 100V 150A 20uA@100V 850mV@8A 8A Standalone SMB Schottky Diodes ROHS
 28646302,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 200V 200uA@200V 2A 50A 950mV@2A Standalone SMB Schottky Diodes ROHS
 41375111,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100nA 1A 250 45V 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
-41375112,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 110MHz 140V 300 370mV 3W 4A 50nA 6V PNP SOT-223 Bipolar (BJT) ROHS
+41375112,smtWeld,smtWeld,SMT,2,0,0.0,expand,-55℃~+150℃ 1 PNP 110MHz 140V 300 370mV 3W 4A 50nA 6V PNP SOT-223 Bipolar (BJT) ROHS
 41375126,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 100MHz 100mA 100nA 2 NPN 200mW 45V 500mV 6V 800 NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375139,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 PNP 1.5V 15MHz 160V 1A 1uA 320 500mW 6V PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41376087,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 13V 15.9V 1uA 200W@10/1000us 21.5V 9.3A IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
