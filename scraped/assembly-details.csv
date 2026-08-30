@@ -1778,7 +1778,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 460640,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃ 1 PNP 100MHz 180 1V 1W 20V 500nA 5A 6V PNP SOT-89 Bipolar (BJT) ROHS
 460641,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃ 1 NPN 100nA 150mA 150mW 180 180MHz 400mV 50V 7V NPN SOT-523 Bipolar (BJT) ROHS
 460644,manualWeld,manualWeld,THT,5,5,0.0,expand,-55℃~+150℃ 1 NPN 1.5W 100nA 120 120mV 1A 280MHz 32V 6V NPN SOT-89 Bipolar (BJT) ROHS
-460659,manualWeld,manualWeld,THT,5,0,0.0,expand,-40℃~+85℃ 1 2.7V~5.5V 2A 85mΩ Active Low High Side Switch Overcurrent Protection(OCP)、Over Temperature Protection SOT-23-5 Power Distribution Switches ROHS
+460659,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+85℃ 1 2.7V~5.5V 2A 85mΩ Active Low High Side Switch Overcurrent Protection(OCP)、Over Temperature Protection SOT-23-5 Power Distribution Switches ROHS
 460671,manualWeld,manualWeld,THT,5,5,0.0,expand,-40℃~+85℃ 120Kbps 3 30mA 4.5V~5.5V、7.5V~15V 5 Transceiver LSSOP-20 RS232 ICs ROHS
 461024,manualWeld,manualWeld,THT,5,0,0.0,expand,-55℃~+150℃ 1.8W 12.9nC 2 N-Channel 27mΩ@10V 3V 40V 59.6pF 604pF 7.1A SO-8 MOSFETs ROHS
 461056,smtWeld,smtWeld,SMT,5,0,0.0,expand,-55℃~+150℃ 1 P-Channel 1.2W 1.5V 105pF 20V 38mΩ@4.5V 5.5A 8.6nC@4.5V 834pF TSOT-26 MOSFETs ROHS
@@ -3187,7 +3187,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2931965,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+170℃ 2W 5mΩ ±1% ±50ppm/℃ 2512 Chip Resistor - Surface Mount ROHS
 2931968,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+170℃ 3W 3mΩ ±1% ±50ppm/℃ 2512 Chip Resistor - Surface Mount ROHS
 2936849,manualWeld,manualWeld,THT,1,0,0.0,expand,- Pre-ordered Products ROHS
-2941408,manualWeld,manualWeld,THT,5,5,0.0,expand,"130mΩ 2.5A 2.8A 3.3uH ±20% SMD,4.4x4.2mm Power Inductors ROHS"
+2941408,smtWeld,smtWeld,SMT,5,0,0.0,expand,"130mΩ 2.5A 2.8A 3.3uH ±20% SMD,4.4x4.2mm Power Inductors ROHS"
 2943195,manualWeld,manualWeld,THT,1,0,0.0,expand,"1.5uH 2.5mΩ 27A 45A ±20% SMD,13.5x12.5mm Power Inductors ROHS"
 2944844,manualWeld,manualWeld,THT,1,0,0.0,expand,-40℃~+85℃ 1.52A 1.7V~1.9V 144Mbit 500mA Parallel Port (Parallel) FBGA-165(15x17) SRAM
 2960332,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+105℃ 100uF 18mm 26mm 400V ±20% 插件,D18xL26mm Aluminum Electrolytic Capacitors - Leaded ROHS"
