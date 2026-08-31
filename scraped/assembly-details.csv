@@ -2386,7 +2386,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2929257,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 100nA 20pF 24V 26.7V 280W@8/20us 44V 5A@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS
 2929930,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 50V 62.5mW 62kΩ Thick Film Resistor ±100ppm/℃ ±5% 0402 Chip Resistor - Surface Mount ROHS
 2932528,manualWeld,manualWeld,THT,5,0,0.0,expand,SOT-23-5L DC-DC Converters ROHS
-2932778,manualWeld,manualWeld,THT,5,5,0.0,expand,1 Independent 100nA@16.8V 200mW 22.8V~25.6V 24V 250Ω 70Ω SOD-323 Zener Diodes ROHS
+2932778,smtWeld,smtWeld,SMT,20,6,0.0,expand,1 Independent 100nA@16.8V 200mW 22.8V~25.6V 24V 250Ω 70Ω SOD-323 Zener Diodes ROHS
 2933034,smtWeld,smtWeld,SMT,5,2,0.0,expand,-40℃~+85℃ 10pF 12MHz 80Ω ±10ppm ±20ppm SMD3225-4P Crystals ROHS
 2933784,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+155℃ 1.6MΩ 200V 250mW Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS
 2934145,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+155℃ 125mW 150V 15kΩ Thick Film Resistor ±100ppm/℃ ±5% 0805 Chip Resistor - Surface Mount ROHS
@@ -2559,14 +2559,14 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2982909,manualWeld,manualWeld,THT,1,0,0.0,expand,-30℃~+100℃ TO-46 Temperature Sensors ROHS
 41375113,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 200mA 200mV 300 350mW 400V 50MHz 5V PNP SOT-23 Bipolar (BJT) ROHS
 41375115,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 225mW 250mV 400 4V 500mA 50MHz 60V PNP SOT-23 Bipolar (BJT) ROHS
-41375117,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN + 1 PNP 10nA 200mW 300 300MHz 300mV 600mA 60V 6V NPN+PNP SOT-363 Bipolar (BJT) ROHS
+41375117,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN + 1 PNP 10nA 200mW 300 300MHz 300mV 600mA 60V 6V NPN+PNP Standalone SOT-363 Bipolar (BJT) ROHS
 41375127,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 60V 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375128,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN 100nA 150MHz 1A 250mW 300 500mV 5V 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 41375129,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 150mA 200mW 300mV 400 50V 5V 80MHz PNP SOT-23 Bipolar (BJT) ROHS
 41375130,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 15V 200 200mW 500mV 50mA 50nA 5V 800MHz NPN SOT-23 Bipolar (BJT) ROHS
 41375133,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100MHz 100nA 250 300mW 45V 500mA 5V 700mV PNP SOT-23 Bipolar (BJT) ROHS
 41375134,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 30V 3A 400 500mV 500mW 6V 80MHz PNP Standalone SOT-89 Bipolar (BJT) ROHS
-41375135,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100 100nA 1A 500mV 500mW 50MHz 5V 80V PNP SOT-89 Bipolar (BJT) ROHS
+41375135,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100 100nA 1A 500mV 500mW 50MHz 5V 80V PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41375136,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 1.5A 100MHz 100nA 25V 400 500mV 500mW 5V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375138,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 100nA 150mV 160V 300 300MHz 500mW 600mA 6V NPN SOT-89 Bipolar (BJT) ROHS
 41376086,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 1uA 200W@10/1000us 3.44A 36V 44.2V 58.1V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
