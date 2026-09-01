@@ -185,7 +185,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 13482,smtWeld,smtWeld,SMT,5,0,0.0,base,-40℃~+85℃ 2 2 235Kbps 3V~5.5V Transceiver Yes ±15kV TSSOP-16 RS232 ICs ROHS
 13533,smtWeld,smtWeld,SMT,20,10,0.0,expand,330pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 13585,smtWeld,smtWeld,SMT,5,4,0.0,base,10uF 50V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-13738,smtWeld,smtWeld,SMT,5,4,0.0,base,-40℃~+85℃ 16MHz 9pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
+13738,smtWeld,smtWeld,SMT,5,4,0.0,base,-40℃~+85℃ 16MHz 50Ω 9pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
 13967,smtWeld,smtWeld,SMT,20,10,0.0,base,470nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 14033,smtWeld,smtWeld,SMT,20,10,0.0,expand,200mΩ 3.9nH 300mA 4GHz 8@100MHz Multilayer inductor 0402 Inductors (SMD) ROHS
 14289,smtWeld,smtWeld,SMT,5,2,0.0,base,"-40℃~+85℃@(Ta) 1 100mA 2.5uA 25mV@(1mA) 3.3V 30V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
