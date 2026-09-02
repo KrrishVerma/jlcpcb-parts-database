@@ -141,7 +141,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 7532,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+85℃ 1/3,1/2 1/4,1/3,1/2 2.4V~5.2V 256kHz 3-Wire Serial Interface 32 Segment 32x4 bit 60uA LQFP-48(7x7) LCD Drivers ROHS"
 7562,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+85℃ 2.5V~5.5V 200 Years 2Kbit 4,000,000 Cycles 400kHz 5ms I2C SOIC-8 EEPROM ROHS"
 7593,smtWeld,smtWeld,SMT,1,0,0.0,expand,0℃~+70℃ 10mA 4.5V~16V SOIC-8 555 Timers / Counters ROHS
-7722,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+125℃@(TJ) 1 1.8V~6V 1MHz 28V 28uA 400mA Adjustable Boost Boost Built-in No SOT-23-5 DC-DC Converters ROHS
+7722,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+125℃@(TJ) 1 1.8V~6V 1MHz 28V 28uA 400mA Adjustable Boost Boost Built-in No Overcurrent Protection、Light load efficient mode SOT-23-5 DC-DC Converters ROHS
 7859,smtWeld,smtWeld,SMT,1,0,0.0,expand,"-40℃~+85℃ 1 2.7V~3.6V 4.5V~5.5V 8 Bidirectional Tri-State TSSOP-24 Translators, Level Shifters ROHS"
 7881,smtWeld,smtWeld,SMT,1,0,0.0,expand,-12V~-1.5V -40℃~+85℃ 1.5V~12V 100uA 8kHz 97Ω 98% Inverted SOIC-8 Charge Pumps ROHS
 7950,smtWeld,smtWeld,SMT,1,0,0.0,base,-16V~16V 0℃~+70℃ 2 3V~32V 40mA 45nA 5nA 700uA 70dB 7mV 7uV/℃ Built-in compensation、ESD protection SOIC-8 Operational Amplifier ROHS
@@ -2558,7 +2558,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41411783,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 14V 17.2V 1uA 200W@10/1000us 23.2V 8.6A Bidirectional IEC 61000-4-2 TVS SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 2982909,manualWeld,manualWeld,THT,1,0,0.0,expand,-30℃~+100℃ TO-46 Temperature Sensors ROHS
 41375113,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 200mA 200mV 300 350mW 400V 50MHz 5V PNP SOT-23 Bipolar (BJT) ROHS
-41375115,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 PNP 100nA 225mW 250mV 400 4V 500mA 50MHz 60V PNP SOT-23 Bipolar (BJT) ROHS
+41375115,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 225mW 250mV 400 4V 500mA 50MHz 60V PNP SOT-23 Bipolar (BJT) ROHS
 41375117,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN + 1 PNP 10nA 200mW 300 300MHz 300mV 600mA 60V 6V NPN+PNP Standalone SOT-363 Bipolar (BJT) ROHS
 41375127,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 100nA 210MHz 2A 350mV 390 500mW 60V 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375128,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 NPN 100nA 150MHz 1A 250mW 300 500mV 5V 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
