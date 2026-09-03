@@ -2448,7 +2448,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2980809,manualWeld,manualWeld,THT,5,5,0.0,expand,0402 Pre-ordered Products ROHS
 2980810,manualWeld,manualWeld,THT,5,5,0.0,expand,0402 Pre-ordered Products ROHS
 2980811,smtWeld,smtWeld,SMT,5,5,0.0,expand,0603 Chip Resistor - Surface Mount ROHS
-2981393,smtWeld,smtWeld,SMT,2,0,0.0,expand,"3.6A 33uH 65mΩ Unshielded Inductor ±20% SMD,12.5x12.5mm Power Inductors ROHS"
+2981393,smtWeld,smtWeld,SMT,2,0,0.0,expand,"3.6A 33uH 65mΩ Shielded inductor ±20% SMD,12.5x12.5mm Power Inductors ROHS"
 2981641,smtWeld,smtWeld,SMT,5,2,0.0,expand,-40℃~+85℃ 12MHz 16pF Crystal Oscillator ±10ppm SMD3225-4P Crystals ROHS
 2981643,manualWeld,manualWeld,THT,5,5,0.0,expand,-40℃~+85℃ 12MHz 20pF Crystal Oscillator ±10ppm SMD3225-4P Crystals ROHS
 2983064,smtWeld,smtWeld,SMT,2,0,0.0,expand,"18uH 4.5A 4.5A 40mΩ ±20% SMD,12x12mm Power Inductors ROHS"
@@ -2568,7 +2568,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375134,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 30V 3A 400 500mV 500mW 6V 80MHz PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41375135,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100 100nA 1A 500mV 500mW 50MHz 5V 80V PNP Standalone SOT-89 Bipolar (BJT) ROHS
 41375136,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 1 NPN 1.5A 100MHz 100nA 25V 400 500mV 500mW 5V NPN Standalone SOT-89 Bipolar (BJT) ROHS
-41375138,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 100nA 150mV 160V 300 300MHz 500mW 600mA 6V NPN SOT-89 Bipolar (BJT) ROHS
+41375138,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 150mV 160V 300 300MHz 500mW 600mA 6V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41376086,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 1uA 200W@10/1000us 3.44A 36V 44.2V 58.1V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41376088,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+150℃ 1 100uA 12V 16.67A 200W@10/1000us 7V 8.6V IEC 61000-4-2 TVS Unidirectional SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS
 41376097,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 14V 17.2V 23.2V 25.86A 5uA 600W@10/1000us Bidirectional IEC 61000-4-2 TVS DO-214AA(SMB) ESD and Surge Protection (TVS/ESD) ROHS
