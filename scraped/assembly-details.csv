@@ -2164,7 +2164,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2847129,manualWeld,manualWeld,THT,5,5,0.0,expand,33Ω@100MHz 750mA 90mΩ ±25% 0201 Ferrite Beads ROHS
 2847235,manualWeld,manualWeld,THT,2,1,0.0,expand,"-40℃~+105℃ 1.2Ω@100kHz 11mm 120mA@100kHz 2000hrs@105℃ 22uF 2mm 35V 5mm ±20% 插件,D5xL11mm Aluminum Electrolytic Capacitors - Leaded ROHS"
 2858390,smtWeld,smtWeld,SMT,2,0,0.0,expand,"-40℃~+125℃ 2 400Ω@100MHz 50V 6.5mΩ 7A SMD-4P,10x8mm Common Mode Filters ROHS"
-2858817,smtWeld,smtWeld,SMT,2,0,0.0,expand,"10A 25mΩ 4.7uH 6.5A ±20% SMD,8.6x8mm Power Inductors ROHS"
+2858817,smtWeld,smtWeld,SMT,2,0,0.0,expand,"10A 25mΩ 4.7uH 6.5A ±20% SMD,8.6x8mm Molding Power Inductors ROHS"
 2859206,smtWeld,smtWeld,SMT,1,0,0.0,expand,100V 10uF X7S 2220 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 2870294,manualWeld,manualWeld,THT,1,0,0.0,expand,"0℃~+70℃ 13ns@5V,50pF 2V 3 3 4.5V~5.5V 400mV、500mV 400uA 74ALS Series 800mV 8mA AND Gate PDIP-14 Logic Gates ROHS"
 2875367,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 100pF 250V、400V X1,Y2 ±10% 插件,P=7.5mm Safety Capacitors ROHS"
