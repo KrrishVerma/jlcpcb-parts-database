@@ -887,7 +887,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2979167,manualWeld,manualWeld,THT,2,0,0.0,expand,-25~85℃ Battery base CR2032 Manganese steel Nickel plated - ROHS
 2979698,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+105℃ 250V 2uF ±5% 插件,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS"
 2981674,smtWeld,smtWeld,SMT,5,4,0.0,expand,-40℃~+85℃ 10pF 25MHz Crystal Oscillator ±10ppm SMD3225-4P Crystals ROHS
-2981774,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+105℃ 0.5~2.5 1 12~26 1x4P 20A 300V 4 4P 5.08mm Green M3 Through Hole 插件,P=5.08mm Screw Terminal Blocks ROHS"
+2981774,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+105℃ 0.5~2.5 1 12~26 19.5mm 1x4P 20A 300V 4 4P 5.08mm Green M3 Through Hole Plugin,P=5.08mm Screw Terminal Blocks ROHS"
 2982529,manualWeld,manualWeld,THT,2,0,0.0,expand,-40℃~+85℃ 1 10.5mm 10000 times 20V 5A Black Female Through Hole Type-C 插件 USB Connectors ROHS
 2983084,smtWeld,smtWeld,SMT,2,0,0.0,expand,"1.63Ω 730mA 730mA 820uH ±20% SMD,12x12mm Power Inductors ROHS"
 2983323,smtWeld,smtWeld,SMT,2,1,0.0,expand,"-55℃~+105℃ 10.5mm 175mA@120Hz 2000hrs@105℃ 220uF 35V 8mm ±20% SMD,D8xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
@@ -1408,7 +1408,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 22395516,smtWeld,smtWeld,SMT,5,8,0.0,expand,-55℃~+125℃ 100nA 220W@8/20us 24V 25pF 30V 44V 5A@8/20us ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
 22395517,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 15V 185A@8/20us 2.775kW@8/20us 200nA 4.5V 650pF 7V ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1610-2L ESD and Surge Protection (TVS/ESD) ROHS
 22395518,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 1uA 280A@8/20us 4.5V 5.88kW@8/20us 650pF 6V 8.5V、21V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN2020-3L ESD and Surge Protection (TVS/ESD) ROHS
-22395519,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+125℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 9V ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
+22395519,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+125℃ 0.8pF 1 16V 200nA 55W@8/20us 5A@8/20us 5V 9V ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS
 22395520,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 0.3pF、0.6pF 15V 500nA 5A@8/20us 5V 6V 75W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-143 ESD and Surge Protection (TVS/ESD) ROHS
 22395521,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 Independent 300mW 3uA 4.4V~5V 4.7V 500Ω 80Ω SOT-23 Zener Diodes ROHS
 22395522,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 Independent 15Ω 300mW 7.7V~8.7V 700nA 8.2V 80Ω SOT-23 Zener Diodes ROHS
@@ -2189,7 +2189,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2891306,smtWeld,smtWeld,SMT,5,4,0.0,expand,-65℃~+175℃ 150V 20uA 3A 80A 920mV@3A Independent SMAF Schottky Diodes ROHS
 2891307,manualWeld,manualWeld,THT,5,5,0.0,expand,-65℃~+175℃ 150A 150V 20uA 5A 920mV@5A Independent SMBF Schottky Diodes ROHS
 2891666,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 11V 130pF 150℃ 15A 1uA 20V 350W 8V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-4 SOD-323 ESD and Surge Protection (TVS/ESD) ROHS
-2892498,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+125℃ 1 100W 100nA 25V 4A 5V 6V ESD DFN1006 ESD and Surge Protection (TVS/ESD) ROHS
+2892498,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 0.5pF 1 100W 100nA 22V 4.5A 5V 9.5V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 DFN1006 ESD and Surge Protection (TVS/ESD) ROHS
 2893035,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+105℃ 10nF 400V ±5% 插件,P=7.5mm Polypropylene Film Capacitors (CBB) ROHS"
 2893148,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+105℃ 1.5nF 630V ±10% 插件,P=7.5mm Polypropylene Film Capacitors (CBB) ROHS"
 2893942,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 1uF 250V Metallized Polyester ±10% 插件,P=20mm Film Capacitors ROHS"
@@ -2610,7 +2610,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
 41375125,smtWeld,smtWeld,SMT,10,4,0.0,expand,100nA 2 NPN 200mA 200mW 300 300MHz 300mV 40V 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375131,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100nA 150mA 180MHz 200mW 400mV 50V 560 7V NPN SOT-23 Bipolar (BJT) ROHS
-41375132,smtWeld,smtWeld,SMT,5,4,0.0,expand,1 PNP 100nA 150MHz 1A 250mW 300 5V 600mV 60V PNP SOT-23 Bipolar (BJT) ROHS
+41375132,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 150MHz 1A 250mW 300 5V 600mV 60V PNP SOT-23 Bipolar (BJT) ROHS
 41375140,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 100nA 150MHz 1V 30V 5A 750mW 7V 800 NPN SOT-89 Bipolar (BJT) ROHS
 41376085,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 NPN 1.5W 100nA 130MHz 1A 25 500mV 5V 60V NPN SOT-223 Bipolar (BJT) ROHS
 41410772,smtWeld,smtWeld,SMT,2,0,0.0,expand,-55℃~+150℃ 100V 150A 50uA@100V 8A 950mV@8A Standalone SMC Schottky Diodes ROHS
