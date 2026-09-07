@@ -161,7 +161,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 8959,smtWeld,smtWeld,SMT,1,0,0.0,expand,0℃~+70℃ 1nA 2V~5.5V 300nA Backup power management and battery charging、InsideSRAM/NVRAM、Sleep/Wake control External SPI SOIC-8 Real Time Clocks ROHS
 8963,smtWeld,smtWeld,SMT,1,0,0.0,base,-40℃~+85℃ 1 1 10Mbps 2mA 3.3V 32 Half-Duplex Transceiver SOIC-8 RS-485 / RS-422 ICs ROHS
 9002,smtWeld,smtWeld,SMT,5,2,0.0,base,-40℃~+85℃ 12MHz 20pF 80Ω Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
-9006,smtWeld,smtWeld,SMT,5,4,0.0,base,-40℃~+85℃ 12pF 25MHz Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
+9006,smtWeld,smtWeld,SMT,5,4,0.0,base,-40℃~+85℃ 12pF 25MHz 50Ω Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS
 9196,smtWeld,smtWeld,SMT,5,10,0.0,base,1nF 2kV X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 9634,smtWeld,smtWeld,SMT,5,4,0.0,base,-55℃~+150℃ 1 NPN 160 1uA 30V 3A 500mV 500mW 50MHz 6V NPN SOT-89-3L Bipolar (BJT) ROHS
 9669,smtWeld,smtWeld,SMT,1,0,0.0,expand,-40℃~+105℃ 1 1 1Mbps 2.7V~5.5V 2.7V~5.5V 2500 25kV/us 50ns Bidirectional signal isolation、Multi-voltage domain interface、Power-on reset SOIC-8 Digital Isolators ROHS
@@ -621,7 +621,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 484513,manualWeld,manualWeld,THT,2,2,0.0,expand,-55℃~+150℃ 1 N-channel 1.2A 11.5Ω@10V 150pF 1W 4V 4pF 600V 6nC@10V TO-92 MOSFETs ROHS
 485694,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1.3W 1.55V 1.95nF 10A 16mΩ@4.5V 16nC@4.5V 190pF 2 N-Channel 40V SOIC-8 MOSFETs ROHS
 489243,smtWeld,smtWeld,SMT,5,0,0.0,expand,-55℃~+150℃ 1 N-Channel + 1 P-Channel 1.3pF、4pF 170mA、330mA 1Ω@10V、4.5Ω@10V 2.1V 24pF、33pF 350pC@5V 4.5pF、7pF 500mW 50V、60V N-Channel + P-Channel SOT-666 MOSFETs ROHS
-497914,smtWeld,smtWeld,SMT,2,0,0.0,expand,"100uH 2.5A 240mΩ 4A Molded Inductor ±20% SMD,13.8x12.6mm Power Inductors ROHS"
+497914,smtWeld,smtWeld,SMT,2,0,0.0,expand,"100uH 2.5A 240mΩ 4A Molded Inductor ±20% SMD,13.8x12.6mm Molding Power Inductors ROHS"
 504132,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1 N-channel 1.4W 1V 2.412nF 20A 3.1mΩ@10V 30V 396pF 54nC@10V SOP-8 MOSFETs ROHS
 507849,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+125℃@(Ta) 1.24V~18V 100mA 20ppm/℃ Adjustable Parallel ±0.5% SOT-23-5 Voltage Reference ROHS
 518889,manualWeld,manualWeld,THT,2,0,0.0,expand,"-25℃~+125℃ 2.2nF X1,Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
@@ -2604,7 +2604,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375110,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 PNP 1.5W 100MHz 100V 100nA 1A 250 500mV 5V PNP SOT-223 Bipolar (BJT) ROHS
 41375114,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100MHz 100nA 250mV 300mW 400 4V 500mA 60V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 41375116,smtWeld,smtWeld,SMT,5,4,0.0,expand,160V 2 NPN 200mA 200mV 200mW 300 300MHz 50nA 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
-41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN SOT-89 Bipolar (BJT) ROHS
+41375119,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 0.5mW 1 NPN 120MHz 1A 32V 390 400mV 500nA 5V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375120,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 130MHz 1A 250 500mV 500mW 5V 5nA 60V NPN Standalone SOT-89 Bipolar (BJT) ROHS
 41375121,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 120MHz 120V 1V 240 500mW 5V 800mA PNP SOT-89 Bipolar (BJT) ROHS
 41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
