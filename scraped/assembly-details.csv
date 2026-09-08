@@ -810,7 +810,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2919408,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+170℃ 11mW/℃ 2700K 35s 3A 5Ω 7.5mm ±20% 插件,P=7.5mm NTC Thermistors ROHS"
 2919410,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+170℃ 13mW/℃ 2700K 4A 55s 5Ω 7.5mm ±20% 插件,P=7.5mm NTC Thermistors ROHS"
 2919429,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+170℃ 13mW/℃ 2800K 55s 5Ω 6A 7.5mm ±20% 插件,P=7.5mm NTC Thermistors ROHS"
-2919430,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+170℃ 10mm 13mW/℃ 3000K 55s 5Ω 7A ±20% 插件,P=10mm NTC Thermistors ROHS"
+2919430,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+170℃ 10mm 13mW/℃ 20mm 3000K 55s 5Ω 7.5mm 7A ±20% Plugin,P=10mm NTC Thermistors ROHS"
 2919431,manualWeld,manualWeld,THT,5,0,0.0,expand,"-40℃~+170℃ 10mm 5Ω ±20% 插件,P=10mm NTC Thermistors ROHS"
 2919432,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+170℃ 2800K 2A 5mm 8Ω ±20% 插件,P=5mm NTC Thermistors ROHS"
 2919433,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+170℃ 11mW/℃ 2800K 2A 35s 5mm 8Ω ±20% 插件,P=5mm NTC Thermistors ROHS"
