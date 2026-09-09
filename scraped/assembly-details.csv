@@ -2611,7 +2611,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375125,smtWeld,smtWeld,SMT,10,4,0.0,expand,100nA 2 NPN 200mA 200mW 300 300MHz 300mV 40V 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
 41375131,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100nA 150mA 180MHz 200mW 400mV 50V 560 7V NPN SOT-23 Bipolar (BJT) ROHS
 41375132,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 150MHz 1A 250mW 300 5V 600mV 60V PNP SOT-23 Bipolar (BJT) ROHS
-41375140,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 NPN 100nA 150MHz 1V 30V 5A 750mW 7V 800 NPN SOT-89 Bipolar (BJT) ROHS
+41375140,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 150MHz 1V 30V 5A 750mW 7V 800 NPN SOT-89 Bipolar (BJT) ROHS
 41376085,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 NPN 1.5W 100nA 130MHz 1A 25 500mV 5V 60V NPN SOT-223 Bipolar (BJT) ROHS
 41410772,smtWeld,smtWeld,SMT,2,0,0.0,expand,-55℃~+150℃ 100V 150A 50uA@100V 8A 950mV@8A Standalone SMC Schottky Diodes ROHS
 41410779,smtWeld,smtWeld,SMT,2,0,0.0,expand,-55℃~+125℃ 20V 3A 500uA@20V 550mV@3A 80A Standalone SMC Schottky Diodes ROHS
