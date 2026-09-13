@@ -1545,7 +1545,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 28646260,smtWeld,smtWeld,SMT,20,6,0.0,expand,1V@40mA 200mA 20nA@30V 40V 600mA Standalone SOD-323 Schottky Diodes ROHS
 28646261,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.25W 12V 190pF 26mΩ@4.5V、40mΩ@2.5V、52mΩ@1.8V 290pF 3.3nC@2.5V 3.6A 740pF 900mV P-Channel SOT-23 MOSFETs ROHS
 28646262,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 1.25W 2.2V 29.5mΩ@10V 3.5A 30V 363pF 39pF 49pF 7.2nC@10V N-Channel SOT-23 MOSFETs ROHS
-28646263,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.25A 1.25W 275mΩ@10V 32pF 380pF 3V 5.4nC@10V 60V 6pF P-Channel SOT-23 MOSFETs ROHS
+28646263,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.25A 1.25W 275mΩ@10V 32pF 380pF 3V 5.4nC@10V 60V 6pF P-Channel ±20V SOT-23 MOSFETs ROHS
 28646264,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 P-Channel 1.5W 115pF 11nC@4.5V 150pF 20V 43mΩ@4.5V 5A 900mV 905pF P-Channel SOT-23 MOSFETs ROHS
 28646265,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 N-channel 1.5V 13pF 220mA 27pF 3.5Ω@10V、6Ω@4.5V 300mW 50V 6pF N-Channel SOT-323 MOSFETs ROHS
 28646266,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100mA 12V 1uA 200mW 250 300mV 3V 7GHz NPN Standalone SOT-23 Bipolar (BJT) ROHS
@@ -2183,7 +2183,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2889415,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS
 2889436,smtWeld,smtWeld,SMT,20,6,0.0,expand,-55℃~+155℃ 10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
 2889714,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+155℃ 120Ω 200V 250mW Thick Film Resistor ±100ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS
-2889850,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+155℃ 200V 330Ω 750mW Thick Film Resistor ±100ppm/℃ ±5% 2010 Chip Resistor - Surface Mount ROHS
+2889850,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+155℃ 200V 330Ω 750mW Thick Film Resistor ±100ppm/℃ ±5% 2010 Chip Resistor - Surface Mount ROHS
 2891294,smtWeld,smtWeld,SMT,5,2,0.0,expand,-65℃~+150℃ 1 Independent 1.3V@2A 1kV 2A 500ns 5uA@1kV SMBF Fast Recovery / High Efficiency Diodes ROHS
 2891304,smtWeld,smtWeld,SMT,5,2,0.0,expand,-65℃~+175℃ 1A 200V 30A 50uA 920mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS
 2891306,smtWeld,smtWeld,SMT,5,4,0.0,expand,-65℃~+175℃ 150V 20uA 3A 80A 920mV@3A Independent SMAF Schottky Diodes ROHS
