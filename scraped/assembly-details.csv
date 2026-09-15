@@ -621,7 +621,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 484513,manualWeld,manualWeld,THT,2,2,0.0,expand,-55℃~+150℃ 1 N-channel 1.2A 11.5Ω@10V 150pF 1W 4V 4pF 600V 6nC@10V TO-92 MOSFETs ROHS
 485694,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1.3W 1.55V 1.95nF 10A 16mΩ@4.5V 16nC@4.5V 190pF 2 N-Channel 40V SOIC-8 MOSFETs ROHS
 489243,smtWeld,smtWeld,SMT,5,0,0.0,expand,-55℃~+150℃ 1 N-Channel + 1 P-Channel 1.3pF、4pF 170mA、330mA 1Ω@10V、4.5Ω@10V 2.1V 24pF、33pF 350pC@5V 4.5pF、7pF 500mW 50V、60V N-Channel + P-Channel SOT-666 MOSFETs ROHS
-497914,smtWeld,smtWeld,SMT,2,0,0.0,expand,"100uH 2.5A 240mΩ 4A Molded Inductor ±20% SMD,13.8x12.6mm Molding Power Inductors ROHS"
+497914,smtWeld,smtWeld,SMT,2,0,0.0,expand,"100uH 2.5A 240mΩ 4A Molded inductor ±20% SMD,13.8x12.6mm Molding Power Inductors ROHS"
 504132,smtWeld,smtWeld,SMT,1,0,0.0,expand,-55℃~+150℃ 1 N-channel 1.4W 1V 2.412nF 20A 3.1mΩ@10V 30V 396pF 54nC@10V SOP-8 MOSFETs ROHS
 507849,smtWeld,smtWeld,SMT,5,0,0.0,expand,-40℃~+125℃@(Ta) 1.24V~18V 100mA 20ppm/℃ Adjustable Parallel ±0.5% SOT-23-5 Voltage Reference ROHS
 518889,manualWeld,manualWeld,THT,2,0,0.0,expand,"-25℃~+125℃ 2.2nF X1,Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
