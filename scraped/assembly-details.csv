@@ -734,27 +734,27 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2896031,manualWeld,manualWeld,THT,2,2,0.0,expand,"1nF 50V 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896032,manualWeld,manualWeld,THT,2,2,0.0,expand,"100V 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896034,manualWeld,manualWeld,THT,5,5,0.0,expand,"10nF 50V 5mm Y5U ±20% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896045,manualWeld,manualWeld,THT,2,2,0.0,expand,"330pF 50V 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896045,manualWeld,manualWeld,THT,2,2,0.0,expand,"330pF 50V 5mm Y5P ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896105,manualWeld,manualWeld,THT,2,0,0.0,expand,"4.7nF 500V 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896106,manualWeld,manualWeld,THT,2,0,0.0,expand,"4.7nF 500V 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896116,manualWeld,manualWeld,THT,2,0,0.0,expand,"2.2nF 4kV 7.5mm Y5U ±20% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896120,manualWeld,manualWeld,THT,2,0,0.0,expand,"470pF 6kV 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
-2896122,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 50V 5mm 6.8mm ±5% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896122,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 50V 5mm 6.8mm ±5% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896123,manualWeld,manualWeld,THT,2,2,0.0,expand,"120pF 50V 5mm SL ±5% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896177,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896182,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896182,manualWeld,manualWeld,THT,2,2,0.0,expand,"100pF 1kV 5.5mm 5mm ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896196,manualWeld,manualWeld,THT,2,1,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896199,manualWeld,manualWeld,THT,2,1,0.0,expand,"1kV 1nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896222,manualWeld,manualWeld,THT,2,0,0.0,expand,"1nF 2kV 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896227,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 1nF 5mm 9mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896252,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 5mm Y5V ±20% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896252,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 5mm Y5V ±20% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896255,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 7.5mm Y5V ±20% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896257,manualWeld,manualWeld,THT,5,5,0.0,expand,"10nF 1kV 5mm Y5V ±20% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896259,manualWeld,manualWeld,THT,5,5,0.0,expand,"10nF 1kV 5mm Y5V ±20% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896260,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 7.5mm Y5V ±20% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
-2896262,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 5mm Y5V ±20% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896262,manualWeld,manualWeld,THT,2,0,0.0,expand,"10nF 1kV 5mm Y5V ±20% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896327,manualWeld,manualWeld,THT,2,1,0.0,expand,"22pF 2kV 5mm SL ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896328,manualWeld,manualWeld,THT,5,5,0.0,expand,"22pF 2kV 5mm SL ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896328,manualWeld,manualWeld,THT,5,5,0.0,expand,"22pF 2kV 5mm SL ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896329,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 22pF 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896336,manualWeld,manualWeld,THT,2,1,0.0,expand,"1kV 220pF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896353,manualWeld,manualWeld,THT,2,1,0.0,expand,"1kV 220pF 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
@@ -762,7 +762,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2896385,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896387,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896388,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896390,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
+2896390,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% Plugin,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896397,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 5mm X7R ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896489,manualWeld,manualWeld,THT,2,2,0.0,expand,"1kV 470pF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896508,manualWeld,manualWeld,THT,2,1,0.0,expand,"2kV 470pF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
@@ -793,7 +793,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2919213,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 4.7nF 400V、400V CQC、UL、VDE、KC X1,Y1 ±20% 插件,P=10mm Safety Capacitors ROHS"
 2919214,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 250V、400V 4.7nF CQC、UL、VDE、KC X1,Y1 ±20% Plugin,P=10mm Safety Capacitors ROHS"
 2919216,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 250V、400V 4.7nF CQC、UL、VDE、KC X1,Y1 ±20% 插件,P=10mm Safety Capacitors ROHS"
-2919217,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 4.7nF 400V、400V CQC、UL、VDE、KC X1,Y1 ±20% 插件,P=10mm Safety Capacitors ROHS"
+2919217,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 4.7nF 400V、400V CQC、UL、VDE、KC X1,Y1 ±20% Plugin,P=10mm Safety Capacitors ROHS"
 2919233,manualWeld,manualWeld,THT,5,5,0.0,expand,"150V 200V 240V 395V 5mm 800A 插件,P=5mm Varistors ROHS"
 2919236,manualWeld,manualWeld,THT,2,0,0.0,expand,"175V 225V 270V 455V 5mm 800A 插件,P=5mm Varistors ROHS"
 2919238,manualWeld,manualWeld,THT,2,0,0.0,expand,"250V 320V 390V 5mm 650V 800A 插件,P=5mm Varistors ROHS"
@@ -928,7 +928,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 3008278,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 2.2nF 250V Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
 3008294,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V 4.7nF Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
 3008295,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 250V 4.7nF Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
-3008298,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 4.7nF Y1 ±20% 插件,P=10mm Safety Capacitors ROHS"
+3008298,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 4.7nF Y1 ±20% Plugin,P=10mm Safety Capacitors ROHS"
 3013473,smtWeld,smtWeld,SMT,5,0,0.0,expand,100nF 630V X7R ±10% 1812 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 3015179,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+155℃ 100kΩ 125mW 150V Thin Film Resistor ±0.5% ±50ppm/℃ 1206 Chip Resistor - Surface Mount ROHS
 3015222,smtWeld,smtWeld,SMT,15,4,0.0,expand,-55℃~+125℃ 2A 40A 500uA@60V 550mV@2A 60V Independent SOD-123FL Schottky Diodes ROHS
@@ -2173,7 +2173,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2875373,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 1nF 250V、400V X1,Y2 ±20% Plugin,P=7.5mm Safety Capacitors ROHS"
 2875375,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 1nF 250V、400V X1,Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
 2875377,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 1nF Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
-2875378,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 1nF Y2 ±20% 插件,P=7.5mm Safety Capacitors ROHS"
+2875378,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 1nF Y2 ±20% Plugin,P=7.5mm Safety Capacitors ROHS"
 2876037,manualWeld,manualWeld,THT,1,0,0.0,expand,-40℃~+105℃ 125V 4P 5A Brass Male Silver Straight Header 插件 Circular Connectors & Cable Connectors ROHS
 2876038,manualWeld,manualWeld,THT,1,0,0.0,expand,-55℃~+120℃ 125V 3A 6P Male Silver Straight Header 插件 Circular Connectors & Cable Connectors ROHS
 2880406,manualWeld,manualWeld,THT,5,0,0.0,expand,0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
@@ -2227,12 +2227,12 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2896381,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896382,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896386,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
-2896389,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896389,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896392,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896393,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896394,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896395,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-2896396,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
+2896395,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 5mm Y5P ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
+2896396,manualWeld,manualWeld,THT,2,0,0.0,expand,"1kV 2.2nF 7.5mm Y5P ±10% Plugin,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896443,manualWeld,manualWeld,THT,5,5,0.0,expand,"2kV 33pF 5.5mm 5mm ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 2896496,manualWeld,manualWeld,THT,5,5,0.0,expand,"1kV 470pF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
 2896506,manualWeld,manualWeld,THT,2,0,0.0,expand,"2kV 470pF 7.5mm Y5P ±10% 插件,P=7.5mm Through Hole Ceramic Capacitors ROHS"
@@ -2280,7 +2280,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 2919164,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V 330pF Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
 2919188,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 300V、440V 470pF CQC、UL、VDE、KC X1,Y2 ±10% 插件,P=7.5mm Safety Capacitors ROHS"
 2919189,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
-2919190,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
+2919190,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% Plugin,P=10mm Safety Capacitors ROHS"
 2919192,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
 2919193,manualWeld,manualWeld,THT,2,0,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
 2919194,manualWeld,manualWeld,THT,5,5,0.0,expand,"-40℃~+125℃ 250V、400V 470pF CQC、UL、VDE、KC X1,Y1 ±10% 插件,P=10mm Safety Capacitors ROHS"
@@ -2498,7 +2498,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 3008299,manualWeld,manualWeld,THT,5,5,0.0,expand,"2.2nF 4kV 7.5mm Y5V ±20% Plugin,P=7.5mm Multilayer Ceramic Capacitors MLCC - Leaded ROHS"
 3008300,manualWeld,manualWeld,THT,2,2,0.0,expand,"10pF 1kV 4mm 5mm 5mm SL ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
 3008301,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 2kV 5mm 5mm 5mm SL ±5% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
-3008302,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 4mm 5mm 5mm Y5P ±10% 插件,P=5mm Through Hole Ceramic Capacitors ROHS"
+3008302,manualWeld,manualWeld,THT,5,5,0.0,expand,"100pF 1kV 4mm 5mm 5mm Y5P ±10% Plugin,P=5mm Through Hole Ceramic Capacitors ROHS"
 3009015,smtWeld,smtWeld,SMT,20,8,0.0,expand,-55℃~+155℃ 200kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS
 3009089,smtWeld,smtWeld,SMT,20,10,0.0,expand,-55℃~+155℃ 200kΩ 50mW Thick Film Resistor ±1% ±100ppm/℃ 0201 Chip Resistor - Surface Mount ROHS
 3009098,smtWeld,smtWeld,SMT,5,5,0.0,expand,-55℃~+155℃ 2.2kΩ 50mW Thick Film Resistor ±200ppm/℃ ±5% 0201 Chip Resistor - Surface Mount ROHS
@@ -2609,7 +2609,7 @@ lcsc,Assembly Type,Assembly Type Batch,Assembly Process,Min Order Qty,Attrition 
 41375121,smtWeld,smtWeld,SMT,5,2,0.0,expand,1 PNP 100nA 120MHz 120V 1V 240 500mW 5V 800mA PNP SOT-89 Bipolar (BJT) ROHS
 41375123,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 1uA 320 3A 500mV 500mW 50MHz 6V 70V NPN SOT-89 Bipolar (BJT) ROHS
 41375125,smtWeld,smtWeld,SMT,10,4,0.0,expand,100nA 2 NPN 200mA 200mW 300 300MHz 300mV 40V 6V NPN Standalone SOT-363 Bipolar (BJT) ROHS
-41375131,smtWeld,smtWeld,SMT,10,4,0.0,expand,1 NPN 100nA 150mA 180MHz 200mW 400mV 50V 560 7V NPN SOT-23 Bipolar (BJT) ROHS
+41375131,smtWeld,smtWeld,SMT,10,4,0.0,expand,-55℃~+150℃ 1 NPN 100nA 150mA 180MHz 200mW 400mV 50V 560 7V NPN Standalone SOT-23 Bipolar (BJT) ROHS
 41375132,smtWeld,smtWeld,SMT,5,4,0.0,expand,-55℃~+150℃ 1 PNP 100nA 150MHz 1A 250mW 300 5V 600mV 60V PNP SOT-23 Bipolar (BJT) ROHS
 41375140,smtWeld,smtWeld,SMT,5,2,0.0,expand,-55℃~+150℃ 1 NPN 100nA 150MHz 1V 30V 5A 750mW 7V 800 NPN SOT-89 Bipolar (BJT) ROHS
 41376085,smtWeld,smtWeld,SMT,2,0,0.0,expand,1 NPN 1.5W 100nA 130MHz 1A 25 500mV 5V 60V NPN SOT-223 Bipolar (BJT) ROHS
