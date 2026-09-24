@@ -3,8 +3,11 @@ name: "Update parts database"
 
 on:
   push:
-  schedule:  # Run 2 hours and 45 minutes after yaqwsx/jlcparts updates their database every day at 3 AM UTC
-    - cron: "45 5 * * *"
+  # schedule trigger paused 2026-09-24: upstream yaqwsx/jlcparts is serving
+  # truncated data (see yaqwsx/jlcparts#159, PR #165, unmerged). Re-enable
+  # once that is fixed or the sanity-floor check below is added.
+  # schedule:
+  #   - cron: "45 5 * * *"
   workflow_dispatch:  # Allow manual triggering of the workflow
 
 jobs:
